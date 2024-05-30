@@ -1,0 +1,67 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: flat gradient vertical border
+*.color1: #FFFFFF
+*.color2: #CECECE
+*.font: :style=Bold
+*.textColor: #7F6868
+*.foregroundColor: #5E5E5E
+*.alignment: center
+*.borderColor:#929292
+
+menu.frame.appearance: flat solid border
+menu.frame.backgroundColor: #F7F7F7
+menu.frame.textColor: #3C3C3C
+menu.frame.font: -12
+
+#menu.active.appearance: flat solid border
+menu.active.color1: #5CA4EC
+menu.active.color2: #3888DB
+menu.active.borderColor: #3681CE
+
+window.label.*.appearance: parentrelative
+window.button.*.appearance: parentrelative
+
+toolbar.appearance: flat solid border
+toolbar.backgroundColor: #242424
+toolbar.*.textColor: #B1B1B1
+
+toolbar.label.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+#toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.windowLabel.color1: #2D5B8C
+toolbar.windowLabel.color2: #2A4159
+toolbar.windowLabel.borderColor: #2D537B
+toolbar.windowLabel.textColor: white
+
+toolbar.font: -12
+
+*button.pressed.appearance: sunken gradient vertical
+*button.pressed.color1: #9F9F9F
+*button.pressed.color1: #AEAEAE
+*button.pressed.borderColor: #929292
+
+window.button.pressed.appearance: sunken gradient vertical
+window.button.pressed.color1: #9F9F9F
+window.button.pressed.color1: #AEAEAE
+window.button.pressed.borderColor: #929292
+
+slit.appearance: flat solid border
+slit.backgroundColor: #242424
+

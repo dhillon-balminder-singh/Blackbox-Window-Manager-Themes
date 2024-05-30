@@ -1,0 +1,55 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Style like Windows XP#
+#By Balminder Singh Dhillon. email: dhillon.balminder.singh@gmail.com#
+#02.01.2020 14:39:10#
+#License#
+/*
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published by
+ *      the Free Software Foundation; either version 2 of the License, or
+ *      (at your option) any later version.
+ *      
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ *      
+ *      You should have received a copy of the GNU General Public License
+ *      along with this program; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ *      MA 02110-1301, USA.
+ */
+ 
+ *.appearance: raised solid border
+ *.backgroundColor: light blue
+ *.alignment: center
+ window.label.focus.backgroundColor: #3C7EC8
+ window.grip.focus.backgroundColor: #3C7EC8
+ *button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: #A55E5F
+*.button.*.backgroundColor: brown
+*.button.unfocus.backgroundColor: #A55E5F
+window.label.focus.textColor: white
+window.label.unfocus.textColor: dark grey
+*.foregroundColor: azure
+menu.title.backgroundColor: #3C7EC8
+menu.active.backgroundColor: #3C7EC8
+menu.frame.foregroundColor: black
+toolbar.windowLabel.backgroundColor: #3C7EC8
+toolbar.windowLabel.textColor: white
+*font: Lucida Typewriter-12:Bold

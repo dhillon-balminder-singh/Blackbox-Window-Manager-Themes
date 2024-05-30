@@ -1,0 +1,80 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#CHROMIUM STYLE FOR BLACKBOX 0.70#
+#FOLLOWING COLOURS OF Chromium GTK BY  Steve Dodier (c) 2009#
+#NOT AN EXACT REPRESENTATION. SOME ITEMS MODIFIED FOR BLACKBOX STYLE LIMITS#
+*.foregroundColor: #C6DDF9
+*textColor: #323232
+*appearance: raised gradient vertical border
+#*appearance: FLAT gradient
+*color: #72ABF4
+*colorTo: #65A4F1
+*backgroundColor: #FILL YOUR FAVOURITE COLOUR#
+*marginWidth: 2
+*font: -10:style:Bold
+
+menu.frame.appearance: flat solid border
+menu.frame.backgroundColor: #ECF5FB
+menu.frame.foregroundColor: #61A8FF
+
+menu.active.appearance: flat solid
+menu.active.backgroundColor: #61A8FF
+
+*borderColor: #447FC5
+
+window.title.focus.color: #C4C8CF
+window.title.focus.colorTo: #63A4F0
+
+window.label.*.appearance: parentrelative
+
+window.button.*.appearance: parentrelative
+#window.button.focus.color1: #71AAF1
+#window.button.focus.color2: #65A4F1
+
+window.title.unfocus.color: #898A8C
+window.title.focus.colorTo: #63A4F0
+
+menu.title.color: #C4C8CF
+menu.title.colorTo: #63A4F0
+
+
+
+window.grip.focus.appearance: raised gradient VERTICAL border
+window.grip.focus.color: #63A3F0
+window.grip.focus.colorTo: #444444
+
+window.grip.unfocus.appearance: raised gradient VERTICAL border
+window.grip.unfocus.color: #63A3F0
+window.grip.unfocus.colorTo: #898A8C
+
+toolbar.color: #F2F7FD
+toolbar.colorTo: #BEC8D4
+
+toolbar.appearance: flat gradient
+toolbar.label.appearance: parentrelative
+
+toolbar.windowLabel.appearance: parentrelative
+
+toolbar.button.appearance: parentrelative
+toolbar.button.foregroundColor: #61A8FF
+
+toolbar.clock.appearance: parentrelative
+
+toolbar.button.pressed.appearance: sunken solid
+toolbar.button.pressed.backgroundColor: #61A8FF
+
+window.button.pressed.appearance: sunken solid

@@ -1,0 +1,64 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#ETOILE NARCISSUS STYLE FOR BLACKBOX#
+#BY BALMINDER S DHILON#
+
+*borderColor: #000000
+*appearance: raised solid border
+#*color1: #DFDFDF
+#*color2: #C7C7C7
+*.backgroundColor: #E5E5E5
+window.label.*.appearance: parentrelative
+window.button.*.appearance: parentrelative
+*foregroundColor: #292929
+*textColor: #000000
+
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+
+menu.title.font: -12:style=Bold
+#menu.active.appearance: flat solid border
+menu.title.backgroundColor: #555566
+menu.title.textColor:#FFFFFF
+menu.active.backgroundColor: #555566
+menu.active.textColor: #FFFFFF
+menu.active.foregroundColor: #FFFFFF
+window.font: -12:style=Bold
+
+toolbar.appearance: raised gradient vertical border
+toolbar.color1: #FFFFFF
+toolbar.color2: #BDBDBD
+
+*button.pressed.appearance: flat solid border
+#*button.pressed.color1: #232323
+#*button.pressed.color2: #666666
+
+rootCommand: bsetroot -solid rgb:80/80/80
+
+window.title.focus.backgroundColor: #555566
+window.button.focus.foregroundColor: #FFFFFF
+window.label.focus.textColor: #F6F6F6
+
+window.title.unfocus.backgroundColor: #D8D4D4
+window.button.focus.foregroundColor: #333333
+window.label.ubfocus.textColor: #343434
+
+slit.appearance: raised gradient vertical border 
+slit.color1: #858594
+slit.color2: #575767

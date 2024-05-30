@@ -1,0 +1,79 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.alignment:center
+*.appearance: raised solid border
+*.borderWidth: 1
+
+menu.*.backgroundColor: #383838
+menu.*.textColor: #FFFFFF
+menu.disabled.textColor: #AAAAAA
+
+menu.active.appearance: raised gradient vertical border
+menu.active.color1: #6CAAEC
+menu.active.color2: #4086D0
+menu.active.borderColor: #4a90d9
+menu.active.textColor: #FFFFFF
+
+window.handle.*.appearance: raised solid
+window.handle.*.backgroundColor: #EAEBEC
+
+window.grip.*.appearance: raised solid
+window.grip.*.backgroundColor: #DEDEDE
+
+window.*.borderColor: #8D8d8D
+
+window.title.*.appearance: flat gradient vertical
+window.title.*.color1: #EEEEEE
+window.title.*.color2: #DEDEDE
+
+window.label.*.appearance: parentrelative
+window.label.focus.textColor: #727272
+window.label.unfocus.textColor: #70747d
+
+window.button.*.appearance: parentrelative
+window.button.*.foregroundColor: #8d8d8d
+
+#*button.pressed.appearance: parentrelative
+#*button.pressed.backgroundColor: #6FA2CA
+window.button.pressed.appearance: sunken solid border
+window.button.*.pressed.backgroundColor: #6FA2CA
+
+window.title.unfocus.appearance: flat gradient vertical
+window.title.unfocus.color1: #EEEEEE
+window.title.unfocus.color2: #DEDEDE
+
+toolbar.appearance: flat gradient vertical
+toolbar.color1: #EEEEEE
+toolbar.color2: #DEDEDE
+
+toolbar.label.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.*.textColor: #70747d
+
+toolbar.button.foregroundColor: #8d8d8d
+toolbar.button.pressed.appearance: sunken solid border
+toolbar.button.pressed.backgroundColor: #6FA2CA
+
+slit.appearance: flat gradient vertical
+slit.color1: #EEEEEE
+slit.color2: #DEDEDE
+
+
+

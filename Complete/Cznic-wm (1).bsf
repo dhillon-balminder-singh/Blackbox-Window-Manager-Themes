@@ -1,0 +1,100 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+rootCommand: bsetroot -solid grey40
+*appearance: flat solid
+*borderWidth: 5
+*borderColor: #4E9A06
+*.font: Monospace-10:style=Bold
+
+menu.title.appearance: flat solid border
+menu.title.backgroundColor: #3465A4
+#menu.title.foregroundColor: #D3D7CF
+menu.title.textColor: #D3D7CF
+menu.title.alignment: left
+menu.title.borderColor: #4E9A06
+
+menu.frame.appearance: flat solid border
+menu.frame.textColor: #3365A4
+menu.frame.foregroundColor: #3365A4
+menu.frame.backgroundColor: #D3D7CF
+menu.frame.disabledColor: darkgrey
+menu.frame.alignment: left
+menu.frame.borderColor: #4E9A06
+
+menu.active.appearance: flat solid border
+menu.active.backgroundColor: #4E9A06
+menu.active.foregroundColor: #D3D7CF
+menu.active.textColor: #D3D7CF
+menu.active.borderColor: #3465A4
+
+slit.appearance: flat solid border
+slit.backgroundColor: #4E9A06
+slit.marginWidth: 0
+slit.borderColor: #4E9A06
+
+toolbar.appearance: flat solid border
+toolbar.backgroundColor: #4E9A06
+toolbar.alignment: left
+toolbar*textColor: #D3D7CF
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: flat solid 
+toolbar.windowLabel.backgroundColor: #3465A4
+toolbar.button.appearance: parentrelative
+toolbar.button.foregroundColor: #D3D7CF
+toolbar.borderColor: #4E9A06
+
+window.title.focus.appearance: flat solid border
+window.title.focus.backgroundColor: #4E9A06
+window.title.unfocus.appearance: flat solid border
+window.title.unfocus.backgroundColor: #3465A4
+window.title.focus.borderColor: #4E9A06
+
+window.label.focus.appearance: flat solid
+window.label.focus.backgroundColor: #3465A4
+window.label.focus.textColor: #D3D7CF
+window.label.unfocus.appearance: parentrelative
+window.label.unfocus.textColor: #D3D7CF
+window.*.unfocus.borderColor: #3465A4
+#window.label.marginWidth: 1
+
+window.button.focus.appearance: parentrelative
+window.button.focus.foregroundColor: #D3D7CF
+
+window.button.unfocus.appearance: parentrelative
+window.button.unfocus.foregroundColor: #4E9A06
+
+window.handle.focus.appearance: flat solid border
+window.handle.focus.backgroundColor: #3465A4
+
+window.handle.unfocus.appearance: flat solid border
+window.handle.unfocus.backgroundColor: #3465A4
+
+window.grip.focus.appearance: flat solid border
+window.grip.focus.backgroundColor: #4E9A06
+window.grip.unfocus.appearance: flat solid border
+window.grip.unfocus.backgroundColor: #3465A4
+
+*pressed.appearance: flat solid
+*pressed.backgroundColor: #3465A4
+
+window*alignment: left
+window.handleHeight: 15
+
+
+
+

@@ -1,0 +1,146 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+! Title:                        Fluxbuntu
+! Remix By                      Troy James Sobotka ( http://troy-sobotka.blogspot.com)
+! Original Cthulhain By:        cthulhain (http://lordzork.com/blackbox/)
+! Email:                         troy.sobotka@gmail.com
+! Comment:                      A remix of Cthulhain for use with Fluxbuntu's V1 release.
+
+#Additions for Blackbox 0.6 compatibility by Balminder Singh Dhillon#
+#email: dhillon.balminder.singh@gmail.com#
+#01 Jan 2020 13:41:59#
+
+! ***** toolbar *****
+toolbar:                                raised gradient vertical
+     toolbar.color:                     white
+     toolbar.colorTo:                   #dfe58e
+
+toolbar.label:                          parentrelative
+     toolbar.label.textColor:           #86615f
+
+toolbar.windowLabel:                    sunken gradient crossdiagonal
+     toolbar.windowLabel.color:         #9ed7d7
+     toolbar.windowLabel.colorTo:       #bb8e80
+     toolbar.windowLabel.textColor:     #86615f
+
+toolbar.clock:                          parentrelative
+     toolbar.clock.textColor:           #86615f
+
+toolbar.button:                         parentrelative
+     toolbar.button.picColor:           #86615f
+
+toolbar.button.pressed:                 sunken gradient vertical
+     toolbar.button.pressed.color:      #7eb75c
+     toolbar.button.pressed.colorTo:    #cdd00a
+
+
+! ***** menu *****
+menu.title:                             raised gradient crossdiagonal
+     menu.title.color:                  #7eb75c
+     menu.title.colorTo:                #cdd00a
+     menu.title.textColor:              white
+
+menu.frame:                             sunken gradient crossdiagonal
+     menu.frame.color:                  white
+     menu.frame.colorTo:                #dfe58e
+     menu.frame.textColor:              #86615f
+
+menu.hilite:                            sunken gradient crossdiagonal
+     menu.hilite.color:                 #7eb75c
+     menu.hilite.colorTo:               #cdd00a
+     menu.hilite.textColor:             whitef
+
+menu.bullet:                            triangle
+     menu.bullet.position :              right
+
+
+! ***** window focused *****
+window.title.focus:                     raised gradient diagonal
+     window.title.focus.color:          white
+     window.title.focus.colorTo:        #dfe58e
+
+window.label.focus:                     sunken gradient crossdiagonal
+     window.label.focus.color:          #7eb75c
+     window.label.focus.colorTo:        #cdd00a
+     window.label.focus.textColor:      white
+
+window.button.focus:                    parentrelative
+     window.button.focus.picColor:      #86615f
+
+window.button.pressed:                  sunken gradient vertical
+     window.button.pressed.color :       #7eb75c
+     window.button.pressed.colorTo:     #cdd00a
+
+window.handle.focus:                    raised gradient diagonal
+     window.handle.focus.color:         white
+     window.handle.focus.colorTo :       #dfe58e
+
+window.grip.focus:                      raised gradient diagonal
+     window.grip.focus.color:           #7eb75c
+     window.grip.focus.colorTo:         #cdd00a
+
+window.frame.focusColor:                #86615f
+window.frame.focus.color:               #86615f
+
+
+! ***** window unfocused *****
+window.title.unfocus:                   raised gradient diagonal
+     window.title.unfocus.color:        #9ed7d7
+     window.title.unfocus.colorTo:      #bb8e80
+
+window.label.unfocus:                   parentrelative
+     window.label.unfocus.textColor:    #86615f
+
+window.button.unfocus:                  parentrelative
+     window.button.unfocus.picColor:    #727272
+
+window.handle.unfocus:                  raised gradient diagonal
+     window.handle.unfocus.color:       #bb8e80
+     window.handle.unfocus.colorTo:     #9ed7d7
+
+window.grip.unfocus:                    raised gradient diagonal
+     window.grip.unfocus.color:         #9ed7d7
+     window.grip.unfocus.colorTo:       #bb8e80
+
+window.frame.unfocusColor:              #bb8e80
+window.frame.unfocus.color:             #bb8e80
+
+
+! ***** fonts *****
+*.font:                                 sans-9
+    toolbar.justify:                    center
+    window.justify:                     center
+    menu.title.justify:                 center
+    menu.frame.justify:                 right
+
+! ***** the rest *****
+borderColor:                            #86615f
+borderWidth:                            1
+bevelWidth:                             2
+handleWidth:                            4
+frameWidth:                             0
+
+! rootCommand:                          bsetbg -solid "#3a404b"
+
+#CHANGES/ADDITIONS:#
+
+menu.active:                            sunken gradient crossdiagonal
+     menu.active.color:                 #7eb75c
+     menu.active.colorTo:               #cdd00a
+     menu.active.textColor:             whitef
+     
+rootCommand:                          bsetbg -solid "#3a404b"

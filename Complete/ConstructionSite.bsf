@@ -1,0 +1,58 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: flat solid border
+*.backgroundColor: #FFE030
+*.textColor: black
+*.font: Bitstream Vera Sans-10
+*.alignment: center
+
+window.button.focus.backgroundColor: black
+window.button.focus.foregroundColor: #FFE030
+
+window.button.unfocus.backgroundColor: #FFE030
+window.button.unfocus.foregroundColor: black
+
+#window.label.focus.appearance: flat interlaced
+#window.label.focus.color1: black
+#window.label.focus.color2: #FFE030
+# ^3 lines above for testing interlaced appearance only. #
+
+window.label.*.appearance: parentrelative
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: #FFE030
+*button.pressed.borderWidth: 2
+# ^Border width >2 hides some of the foreground icons. Looks animated when pressed.#
+# ^Possible to use this on the Haiku theme #
+
+toolbar.label.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.button.backgroundColor: black
+toolbar.button.foregroundColor: #FFE030
+
+menu.active.backgroundColor: black
+menu.active.foregroundColor: #FFE030
+menu.active.textColor: #FFE030
+
+#menu.title.backgroundColor: black
+#menu.title.textColor: #FFE030
+# ^Black menu background with yellow text looks blur at font size 10#
+# ^Leaving menu bgcolor yellow for clarity#
+
+window.grip.focus.backgroundColor: black

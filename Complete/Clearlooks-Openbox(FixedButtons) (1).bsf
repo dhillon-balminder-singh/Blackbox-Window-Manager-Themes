@@ -1,0 +1,98 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+# Clearlooks-Openbox Style #
+# Following colours from Clearlooks for Openbox by John McKnight #
+# Made by Dhillon,Balminder Singh <dhillon.balminder.singh@gmail.com> #
+
+
+#Common settings#
+*.appearance: raised gradient vertical border
+*.color: #658fb5
+*.colorTo: #4d6982
+*.textColor: #FFFFFF
+*.alignment: left
+*.button.pressed.appearance: Flat Gradient Vertical Border
+*.button.pressed.color: #537797
+*.button.pressed.colorTo: #50708e
+*.button.pressed.borderColor: #3d4c5a
+*borderWidth: 1
+*marginWidth: 2
+*borderColor: #000000
+
+# Menu settings#
+menu.frame.appearance: flat solid
+menu.frame.backgroundColor: #f8f5f2
+menu.frame.foregroundColor: #000000
+menu.frame.disabledColor: #aaaaaa
+menu.frame.textColor: #000000
+
+menu.active.appearance: Flat Gradient Vertical
+menu.active.color: #628cb2
+menu.active.color2: #50708d
+menu.active.foregroundColor: #ffffff
+menu.active.textColor: #ffffff
+
+#Active Window Common settings#
+window.label.focus.appearance: parentrelative
+
+#Inactive Window settings#
+window.label.unfocus.appearance: parentrelative
+#window..title.bg: Raised Gradient Vertical
+window.title.unfocus.color: #f1eeea
+window.title.unfocus.colorTo: #d8cfc7
+window.label.unfocus.textColor: #000000
+
+window.handle.unfocus.color: #f1eeea
+window.handle.unfocus.colorTo: #d8cfc7
+
+window.grip.unfocus.color: #f1eeea
+window.grip.unfocus.colorTo: #d8cfc7
+
+window.button.unfocus.appearance: parentrelative
+#window.inactive.button.pressed.bg: Flat Gradient Vertical Border
+window.button.unfocus.color: #efebe7
+window.button.unfocus.colorTo: #ddd6ce
+#window.inactive.button.pressed.bg.border.color: #8f8173
+#window.inactive.button.pressed.image.color: #000000
+
+window.button.focus.foregroundColor: #D9E2FB
+window.button.focus.appearance: flat gradient border
+window.button.focus.borderColor: #344E97
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised solid border
+*.backgroundColor: #C1C6C8
+
+*.borderColor: #949A9C
+#*.borderColor: #8D8B89
+
+window.title.focus.appearance: raised gradient vertical border
+window.title.focus.color: #95B2D3
+window.title.focus.colorTo: #004FA4
+
+window.label.focus.appearance: parentrelative
+window.label.unfocus.appearance: parentrelative
+#window.label.focus.color: #95B2D3
+#window.label.focus.colorTo: #004FA4
+
+window.button.*.appearance: raised solid
+*.font: -9
+
+*.marginWidth: 2
+#*.marginWidth: 1
+
+slit.appearance: raised gradient vertical border
+slit.color: #95B2D3
+slit.colorTo: #004FA4
+
+toolbar.appearance: raised gradient vertical border
+toolbar.color: #95B2D3
+toolbar.colorTo: #004FA4
+
+toolbar.label.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+#toolbar.button.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.button.appearance: raised solid
+
+menu.title.appearance: raised gradient vertical border
+menu.title.color: #95B2D3
+menu.title.colorTo: #004FA4
+
+menu.active.appearance: raised gradient vertical border
+#menu.active.appearance: flat gradient vertical 
+#^ uncomment to get a flat blue gradient#
+ 
+menu.active.color: #95B2D3
+menu.active.colorTo: #004FA4
+
+window.grip.focus.appearance: raised gradient vertical border
+window.grip.focus.color: #95B2D3
+window.grip.focus.colorTo: #004FA4
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: darkgrey
+
+window.button.pressed.appearance: sunken solid
+window.button.pressed.backgroundColor: darkgrey

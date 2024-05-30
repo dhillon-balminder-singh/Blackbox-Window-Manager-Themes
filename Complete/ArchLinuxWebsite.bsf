@@ -1,0 +1,71 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: raised solid border
+*backgroundColor: rgb:aa/aa/aa
+#*marginWidth: 1
+#*borderWidth: 1
+#*borderColor: #333333
+*alignment: center
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: #DCDCDC
+*button.pressed.foregroundColor: #000000
+menu.title.backgroundColor: #0088CC
+#menu.title.borderColor: white
+menu.title.font: :style=Bold
+*alignment: left
+window.title.focus.backgroundColor: #0088CC
+window.title.focus.borderColor: #333333
+window.label.focus.backgroundColor: #0088CC
+window.label.focus.font: :style=Bold
+window.label.focus.textColor: white
+window.button.focus.backgroundColor: #0088CC
+window.button.focus.foregroundColor: white
+menu.active.backgroundColor: #0088CC
+menu.active.foregroundColor: #FFFFFF
+menu.active.textColor: #FFFFFF
+menu.active.borderColor: #000000
+*unfocus.appearance: raised solid border
+*unfocus.borderColor: #333333
+*button.unfocus.backgroundColor: #333333
+*label.unfocus.backgroundColor: #333333
+*title.unfocus.backgroundColor: #333333
+*unfocus.textColor: #999999
+*unfocus.foregroundColor: #999999
+menu.frame.disabledColor: #999999
+slit.appearance: raised solid border
+slit.backgroundColor: #ECF2F5
+
+window.title.*.appearance: raised solid border
+window.label.*.appearance: parentrelative
+window.button.*.appearance: raised solid
+window.title.*.marginWidth: 0
+
+window.grip.focus.backgroundColor: #333333
+window.grip.unfocus.backgroundColor: #333333
+
+window.handle.focus.backgroundColor: #333333
+window.handle.unfocus.backgroundColor: #333333
+
+toolbar.label.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.backgroundColor: #0088CC
+toolbar.toolbar.clock.textColor: green
+toolbar.*.textColor: #FFFFFF
+toolbar.button.foregroundColor: #FFFFFF

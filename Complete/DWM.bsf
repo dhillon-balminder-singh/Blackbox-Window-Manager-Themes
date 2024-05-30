@@ -1,0 +1,52 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: flat SOLID 
+*backgroundColor: #CCCCCC
+*marginWidth: 0
+*font: Fixed-9
+*textColor: #000000
+
+*foregroundColor: #000000
+
+window.label.focus.backgroundColor: #0066FF
+window.label.focus.textColor: #0066FF
+window.label.unfocus.textColor: #CCCCCC
+#window.frame.focus.borderColor: #0066FF
+window.title.focus.appearance: flat solid border
+window.handle.focus.appearance: flat solid border
+window.handle.focus.borderColor: #0066FF
+
+window.grip.focus.appearance: flat solid border
+window.grip.focus.borderColor: #0066FF
+window.grip.focus.backgroundColor: #0066FF
+window.*.focus.borderColor: #0066FF
+
+toolbar.windowLabel.backgroundColor: #0066FF
+toolbar.windowLabel.textColor: #FFFFFF
+toolbar.label.backgroundColor: #0066FF
+toolbar.label.textColor: #FFFFFF
+
+menu.*.appearance: flat solid border
+menu.*.borderColor: #0066FF
+menu.title.backgroundColor: #0066FF
+menu.title.textColor: #FFFFFF
+menu.active.backgroundColor: #0066FF
+menu.active.textColor: #FFFFFF
+menu.active.foregroundColor: #FFFFFF
+
+rootCommand: bsetroot -solid rgb:00/00/00
+

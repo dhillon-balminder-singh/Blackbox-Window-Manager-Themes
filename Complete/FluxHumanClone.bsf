@@ -1,0 +1,43 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#inspired by Fluxbox Human by Robin Groves#
+#not an exact representation#
+*.appearance: flat solid border
+*.backgroundColor: black
+*.alignment: center
+*.foregroundColor: black
+window.button.*.appearance: flat solid border
+window.label.*.appearance: flat solid border
+window.button.*.backgroundColor: grey
+window.button.unfocus.backgroundColor: grey
+window.label.focus.backgroundColor: ROYAL BLUE
+window.label.unfocus.backgroundColor: grey
+toolbar.label.appearance: flat solid border
+toolbar.windowLabel.appearance: flat solid border
+toolbar.clock.appearance: flat solid border
+toolbar.label.backgroundColor: grey
+toolbar.windowLabel.backgroundColor: grey
+toolbar.clock.backgroundColor: grey
+toolbar.button.backgroundColor: grey
+menu.title.appearance: flat solid border
+menu.frame.appearance: flat solid border
+menu.title.backgroundColor: ROYAL BLUE
+menu.frame.backgroundColor: grey
+window.handle.*.appearance: flat solid border
+window.handle.*.backgroundColor: ROYAL BLUE
+menu.active.foregroundColor: white
+window.label.unfocus.textColor: black

@@ -1,0 +1,92 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Caramelized Theme#
+#Inspired by BLX theme#
+#By Balminder Singh Dhillon. email: dhillon.balminder.singh@gmail.com#
+/*
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published by
+ *      the Free Software Foundation; either version 2 of the License, or
+ *      (at your option) any later version.
+ *      
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ *      
+ *      You should have received a copy of the GNU General Public License
+ *      along with this program; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ *      MA 02110-1301, USA.
+ */
+
+#CHANGES SUN 05.01.2020 14:15:43#
+
+*.appearance: raised SOLID border
+*.backgroundColor: azure
+*.alignment: center
+*.borderColor: #8B6508
+*.font: :style=Bold
+
+#window.button*.foregroundColor:white
+
+window.button.focus.appearance: raised gradient vertical border
+window.button.focus.color1: #BF3808
+window.button.focus.color2: #EAB600
+
+window.label.focus.appearance: raised gradient vertical border
+window.label.focus.color1: #BF3808
+window.label.focus.color2: #EAB600
+
+window.button.unfocus.appearance: raised gradient vertical border
+window.button.unfocus.color1: #661D00
+window.button.unfocus.color2: #C05A05
+
+window.label.unfocus.appearance: raised gradient vertical border
+window.label.unfocus.color1: #661D00
+window.label.unfocus.color2: #C05A05
+
+window.grip.focus.appearance: raised gradient vertical border
+window.grip.focus.color1: #BF3808
+window.grip.focus.color2: #EAB600
+
+window.grip.unfocus.appearance: raised gradient vertical border
+window.grip.unfocus.color1: #661D00
+window.grip.unfocus.color2: #C05A05
+
+menu.title.*.appearance: raised gradient vertical border
+menu.title.*.color1: #BF3808
+menu.title.*.color2: #EAB600
+
+menu.frame.backgroundColor: light blue
+
+menu.active.*.appearance: raised gradient vertical border
+menu.active.*.color1: #BF3808
+menu.active.*.color2: #EAB600
+
+toolbar.appearance: raised SOLID border
+toolbar.backgroundColor: AZURE
+
+toolbar.*.appearance: raised gradient vertical border
+toolbar.*.color1: #BF3808
+toolbar.*.color2: #EAB600
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: saddle brown
+
+toolbar.button.pressed.appearance: sunken solid
+toolbar.button.pressed.backgroundColor: saddle brown

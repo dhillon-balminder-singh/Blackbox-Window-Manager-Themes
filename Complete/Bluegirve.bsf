@@ -1,0 +1,55 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: raised solid border
+*backgroundColor: rgb:aa/aa/aa
+#*marginWidth: 1
+#*borderWidth: 1
+#*borderColor: grey40
+*alignment: center
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: #DCDCDC
+*button.pressed.foregroundColor: black
+menu.title.backgroundColor: #4A6980
+#menu.title.borderColor: white
+menu.title.font: :style=Bold
+*alignment: left
+window.title.focus.backgroundColor: #4A6980
+window.title.focus.borderColor: grey40
+window.label.focus.backgroundColor: #4A6980
+window.label.focus.font: :style=Bold
+window.label.focus.textColor: #fbf5e4
+window.button.focus.backgroundColor: #4A6980
+window.button.focus.foregroundColor: white
+menu.active.backgroundColor: #4A6980
+menu.active.foregroundColor: black
+menu.active.textColor: #F2EBD9
+menu.active.borderColor: black
+*unfocus.appearance: raised solid border
+*unfocus.borderColor: #615E59
+*button.unfocus.backgroundColor: rgb:aa/aa/aa
+*label.unfocus.backgroundColor: rgb:aa/aa/aa
+*title.unfocus.backgroundColor: rgb:aa/aa/aa
+*unfocus.textColor: #737269
+*unfocus.foregroundColor: #737269
+menu.frame.disabledColor: #78776D
+slit.appearance: raised solid border
+slit.backgroundColor: #4A6980
+toolbar.backgroundColor: #4A6980
+toolbar.label.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative

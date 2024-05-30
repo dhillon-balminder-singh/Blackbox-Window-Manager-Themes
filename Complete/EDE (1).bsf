@@ -1,0 +1,40 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+rootCommand: bsetroot -solid rgb:48/6C/B0
+
+*.appearance: raised solid border
+*.backgroundColor: #D0D4C8
+*.foregroundColor: #000000
+*.alignment: center
+*.font: -11
+menu.title.backgroundColor: #000070
+window.label.*.appearance: flat solid
+window.label.*.backgroundColor: #000070
+#*.marginWidth: 2
+menu.active.appearance: flat solid
+menu.active.backgroundColor: #2874A0
+menu.active.foregroundColor: #F8FCF8
+window.label.focus.textColor: #C0C0C0
+
+toolbar.appearance: raised solid
+toolbar.label.appearance: raised solid
+toolbar.button.appearance: raised solid
+toolbar.windowLabel.appearance: sunken solid
+toolbar.clock.appearance: parentrelative
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: darkgrey
