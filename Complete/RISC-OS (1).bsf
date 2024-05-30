@@ -1,0 +1,46 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised gradient vertical  border
+
+rootCommand: bsetroot -solid rgb:C2/FC/C2
+
+*.color1: #DDE9E5
+#*.color1: #D3D8DC
+*.color2: #B7B8BD
+
+*.font: Nimbus Sans L-10:style=Bold
+
+*.alignment: center
+
+menu.frame.appearance: raised solid border
+menu.frame.backgroundColor: #FFFFFF
+menu.frame.marginWidth: 3
+
+menu.active.appearance: raised solid border
+menu.active.backgroundColor: #000000
+menu.active.textColor: #FFFFFF
+
+*.textColor: #000000
+
+window.title.*.appearance: raised gradient vertical 
+window.title.*.marginWidth:0
+
+*.foregroundColor: #515561
+
+toolbar.appearance: raised gradient vertical 
+toolbar.marginWidth:0
+

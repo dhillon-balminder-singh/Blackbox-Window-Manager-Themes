@@ -1,0 +1,46 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: flat solid border
+*backgroundColor: blue
+*textColor: #FFFFFF
+*foregroundColor: #E8E8E7
+*alignment: left
+*borderColor: black
+#*borderColor: #939494
+#*borderColor: #949798
+#*borderColor: #96999A
+#*borderColor: #91A19F
+#*borderColor: #95A5A3
+window.button.*.borderColor: black
+window.label.focus.appearance: flat solid
+window.label.focus.backgroundColor: black
+#window.label.focus.color2: #ECF2F9
+*button.pressed.appearance: flat
+*button.pressed.backgroundColor: black
+menu.title.backgroundColor: black
+menu.frame.foregroundColor: blue
+menu.active.appearance: flat solid
+menu.active.backgroundColor: black
+menu.active.foregroundColor: black
+menu.active.textColor: white
+
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: flat solid
+toolbar.windowLabel.backgroundColor: black
+
+*font: Fixed-12

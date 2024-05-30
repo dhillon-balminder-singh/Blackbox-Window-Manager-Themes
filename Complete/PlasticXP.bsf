@@ -1,0 +1,140 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.alignment: center
+
+menu.frame.appearance: flat solid
+menu.frame.backgroundColor: #ECE9D8
+menu.frame.foregroundColor: black
+menu.frame.textColor: black
+menu.active.appearance: flat gradient 
+menu.active.color2: #0058F3
+menu.active.color1: #7D9BE3
+
+window.label.focus.appearance: flat gradient vertical
+window.label.focus.color2: #0058F3
+window.label.focus.color1: #7D9BE3
+
+window.label.unfocus.appearance: flat gradient vertical
+window.label.unfocus.color2: #0058F3
+window.label.unfocus.color1: #7D9BE3
+
+window.button.focus.appearance: flat gradient vertical
+window.button.focus.color2: #0058F3
+window.button.focus.color1: #7D9BE3
+
+window.button.unfocus.appearance: flat gradient vertical
+window.button.unfocus.color2: #0058F3
+window.button.unfocus.color1: #7D9BE3
+
+window.button.focus.foregroundColor: white
+window.button.focus.backgroundColor: #0058F3
+window.button.focus.borderWidth: 1
+window.button.focus.borderColor: white
+
+window.title.focus.appearance: flat gradient vertical
+window.title.focus.color2: #0058F3
+window.title.focus.color1: #7D9BE3
+
+window.title.unfocus.appearance: flat gradient vertical
+window.title.unfocus.color2: #0058F3
+window.title.unfocus.color1: #7D9BE3
+
+toolbar.appearance: flat gradient vertical
+toolbar.color2: #0058F3
+toolbar.color1: #7D9BE3
+
+toolbar.label.appearance: flat gradient elliptic
+toolbar.label.color1: #000000
+toolbar.label.color2: #3A7C3A
+
+#toolbar.label.backgroundColor: #3A7C3A
+toolbar.button.foregroundColor: white
+toolbar.label.textColor: white
+
+toolbar.button.appearance: flat gradient vertical
+toolbar.button.color1: #7D9BE3
+toolbar.button.color2: #0058F3
+
+
+
+window.button.pressed.appearance: sunken solid
+window.button.pressed.backgroundColor: #1A50B8
+toolbar.button.pressed.appearance: sunken solid
+toolbar.button.pressed.backgroundColor: #1A50B8
+
+menu.frame.disabledColor: #ACA899
+menu.frame.font: #LEFT BLANK TO USE DEFAULT FONT WITH REGULAR WEIGHT# 
+
+window.title.unfocus.appearance: flat gradient vertical
+window.title.unfocus.color2: #7D9BE3
+window.title.unfocus.color1: #7D9BE3
+
+window.label.unfocus.appearance: flat gradient vertical
+window.label.unfocus.color2: #7D9BE3
+window.label.unfocus.color1: #7D9BE3
+
+window.button.unfocused.appearance: flat gradient vertical
+window.button.unfocus.color2: #7D9BE3
+window.button.unfocus.color1: #7D9BE3
+
+#window.title.unfocus.backgroundColor: #7D9BE3
+window.label.unfocus.backgroundColor: #7D9BE3
+
+window.title.focus.appearance: flat gradient vertical
+window.title.focus.color2: #0058F3
+window.title.focus.color1: #7D9BE3
+
+window.label.focus.backgroundColor: #0058F3
+window.button.unfocus.backgroundColor: #7D9BE3
+
+window.handle.focus.appearance: flat solid
+window.handle.focus.backgroundColor: #ECE9D8
+window.handle.unfocus.appearance: flat solid
+window.handle.unfocus.backgroundColor: #7D9BE3
+
+window.grip.focus.appearance: flat gradient vertical
+window.grip.focus.color2: #0058F3
+window.grip.focus.color1: #7D9BE3
+
+window.grip.unfocus.appearance: flat gradient vertical
+window.grip.unfocus.color2: #7D9BE3
+window.grip.unfocus.color1: #7D9BE3
+
+#window.grip.unfocus.backgroundColor: #7D9BE3
+
+toolbar.clock.appearance: flat gradient vertical
+toolbar.clock.appearance.color1: #7D9BE3
+toolbar.clock.appearance.color2: #16ACF0
+toolbar.clock.backgroundColor: red
+
+#window.frame.focus.borderColor: red
+#window.frame.unfocus.borderColor: green
+
+menu.title.appearance: flat gradient vertical
+menu.title.color2: #0058F3
+menu.title.color1: #7D9BE3
+
+toolbar.windowLabel.appearance: flat gradient vertical
+toolbar.windowLabel.color2: #0058F3
+toolbar.windowLabel.color1: #7D9BE3
+toolbar.windowLabel.textColor: white
+
+toolbar.clock.appearance: flat gradient vertical
+toolbar.clock.color2: #16ACF0
+toolbar.clock.color1: #7D9BE3
+toolbar.clock.textColor: white
+

@@ -1,0 +1,73 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Based on the colours specified at http://gnustep.made-it.com/BuildGuide/ #
+#By Balminder Singh Dhillon. email: dhillon.balminder.singh@gmail.com#
+#Date: 17 Feb 2020#
+
+/*
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published by
+ *      the Free Software Foundation; either version 2 of the License, or
+ *      (at your option) any later version.
+ *      
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ *      
+ *      You should have received a copy of the GNU General Public License
+ *      along with this program; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ *      MA 02110-1301, USA.
+ */
+
+#Important Notes:#
+#Actual active window title & menu title is black (#000000) but used grey15 (#262626)#
+#Using black will make the titles look flat since the border colour is black.#
+
+
+
+
+rootCommand: bsetroot -solid rgb:55/55/55
+*.appearance: raised solid border
+*.backgroundColor: #AAAAAA
+*.alignment: center
+*.foregroundColor: black
+
+menu.active.backgroundColor: white
+menu.active.textColor: black
+menu.frame.disabledColor: darkgrey
+menu.frame.alignment: left
+
+menu.title.backgroundColor: grey15
+menu.title.font: Helvetica-12:Bold
+menu.title.textcolor: white
+
+window.font: Helvetica-12:Bold
+
+window.label.*.appearance: parentrelative
+
+window.title.focus.backgroundColor: grey15
+window.label.focus.textColor: white
+window.label.unfocus.textColor: black
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: white
+
+window.button.*.marginWidth: -1
+
+*.font: Helvetica-12

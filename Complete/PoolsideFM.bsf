@@ -1,0 +1,53 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#1.SET THE BACKGROUND COLOUR#
+rootCommand: bsetroot -solid rgb:77/90/cbb
+
+#2. SET COMMON APPEARANCE#
+*appearance: flat solid border
+*backgroundColor: pink
+*borderColor: black
+*textColor: black
+
+#3. SET TITLES APPEARANCE#
+menu.title.appearance: flat interlaced border
+menu.title.color1: pink
+menu.title.color2: black
+menu.title.font: :style=Bold
+menu.title.alignment: right
+window.label.*.appearance: flat interlaced
+window.label.*.color1: pink
+window.label.*.color2: grey20
+window.font: -12:style=Bold
+window.alignment: right
+window.button.*.appearance: flat solid border
+window.button.*.foregroundColor: black
+menu.frame.appearance: flat solid border
+
+#4. SET TOOLBAR APPEARANCE#
+toolbar.appearance: flat solid border
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.button.appearance: flat solid border
+toolbar.alignment: center
+
+#5. ACTIVE MENU APPEARANCE#
+menu.active.appearance: flat solid border
+menu.active.backgroundColor: black
+menu.active.foregroundColor: white
+menu.active.textColor: white

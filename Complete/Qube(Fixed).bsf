@@ -1,0 +1,84 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised solid border
+*.borderColor: black
+*.alignment: center
+
+window.title.*.appearance: raised interlaced border
+window.label.*.appearance: parentrelative
+window.font: Helvetica-10:Bold
+window.title.*.marginWidth: 2
+#^ COMMON VALUES FOR WINDOWS#
+
+#focused window appearance keys#
+window.title.focus.color1: #8496C6
+window.title.focus.color2: #6375B5
+
+window.label.focus.textColor: white
+
+window.button.focus.appearance: flat solid border
+#window.button.focus.appearance: sunken solid border
+#window.button.focus.color1: #ADBBD6
+window.button.focus.backgroundColor: #647AB4
+
+#window.button.focus.foregroundColor: #647AB4
+window.button.focus.foregroundColor: #3C528C
+#window.button.focus.foregroundColor: dark blue
+
+
+window.button.focus.borderColor: #212842
+
+window.button.focus.borderWidth: 1
+
+#unfocused window appearance keys#
+
+window.title.unfocus.color1: #EFEAEE
+window.title.unfocus.color2: #C7C2C6
+
+window.label.unfocus.textColor: white
+
+window.button.unfocus.appearance: flat solid border
+#window.button.unfocus.appearance: sunken solid border
+#window.button.unfocus.color1: #C7C2C6
+window.button.unfocus.backgroundColor: #C5C3C6
+
+window.button.unfocus.foregroundColor: #9D9B9E
+
+window.button.unfocus.borderColor: #848283
+
+window.button.unfocus.borderWidth: 1
+
+rootCommand: bsetroot -solid "#3A61AE"
+
+window.handleHeight: 8
+
+*.backgroundColor: #F0EBF1
+*font: Helvetica-10
+
+menu.active.backgroundColor: black
+menu.active.font: Helvetica-10:Bold
+
+menu.title.TextColor: black
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: grey
+
+toolbar.button.appearance: raised solid border
+toolbar.button.backgroundColor: #C5C3C6
+toolbar.button.borderColor: #212842
+
+rootCommand: bsetroot -solid "#505075"

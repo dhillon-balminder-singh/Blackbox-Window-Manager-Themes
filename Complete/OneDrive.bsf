@@ -1,0 +1,53 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: FLAT SOLID
+*backgroundColor: #FFFFFF
+*marginWidth: 2
+*font: -12:style:Bold
+*textColor: #666666
+menu.active.backgroundColor: #FFFFFF
+menu.active.textColor: #0078D7
+menu.active.foregroundColor: #0078D7
+menu.frame.marginWidth: 5
+*foregroundColor: #000000
+window.label.focus.appearance: flat solid border
+#*borderColor: #0078D7
+#*borderWidth: 1
+
+rootCommand: bsetroot -solid rgb:BB/BB/BB
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: #0078D7
+*button.appearance: parentrelative
+*button.foregroundColor: #0078D7
+
+window.title.focus.backgroundColor: #0078D4
+window.label.focus.appearance: parentrelative
+window.button.focus.appearance: parentrelative
+window.label.focus.textColor: #FFFFFF
+window.button.focus.foregroundColor: #FFFFFF
+
+menu.title.backgroundColor: #0078D4
+menu.title.textColor: #FFFFFF
+menu.frame.backgroundColor: #0078D4
+menu.frame.textColor: #FFFFFF
+
+*.font: SegoeWP-12
+window.font: SegoeWP-12:style=Bold
+menu.title.font: SegoeWP-12:style=Bold
+
+window.grip.focus.backgroundColor: #0078D4

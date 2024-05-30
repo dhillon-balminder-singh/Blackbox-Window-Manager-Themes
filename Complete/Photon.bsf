@@ -1,0 +1,59 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: raised solid border
+*borderWidth: 1
+*backgroundColor: #D8D8D8
+*alignment: center
+window.title.focus.appearance: raised gradient vertical border
+window.title.focus.color1: #5C8BDF
+window.title.focus.color2: #4776CA
+window.label.focus.appearance: parentrelative
+#window.grip.focus.appearance: raised gradient vertical border
+#window.grip.focus.color1: #5C8BDF
+#window.grip.focus.color2: #4776CA
+menu.title.appearance: raised solid border
+#menu.title.backgroundColor: grey
+menu.title.foregroundColor: black
+menu.title.textColor: black
+menu.title.alignment: center
+#menu.title.font: Bitstream Vera Sans-9:style=Bold
+
+#UPDATED SUN 19 JAN 2020 14:42:48#
+
+window.title.unfocus.appearance: raised gradient vertical border
+window.title.unfocus.color1: #40517E
+window.title.unfocus.color2: #7F98CC
+window.label.unfocus.appearance: parentrelative
+window.button.unfocus.appearance: raised solid border
+
+window.button.unfocus.appearance: raised gradient vertical border
+window.button.unfocus.color1: #40517E
+window.button.unfocus.color2: #7F98CC
+
+window.button.unfocus.foregroundColor: #40517e
+
+window.grip.*.appearance: flat gradient vertical border
+window.grip.*.color1: #FFFFFF
+window.grip.*.color2: #4D4D4D
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: white
+
+slit.appearance: raised gradient vertical border
+slit.color1: #D2D2D2
+slit.color2: #DDDDDD
+slit.borderColor: #4B4B4B

@@ -1,0 +1,45 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised gradient vertical border
+*.color1: #E4F0FF
+*.color2: #BEDAFF
+*.borderColor: #5E87BD
+*.textColor: #264F87
+*.foregroundColor: #456DA9
+*.font: Deja Vu Sans-10:Bold
+*.alignment: center
+
+window.label.*.appearance: parentrelative
+window.button.*.appearance: parentrelative
+
+toolbar.label.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+menu.active.color1: #FDFEEA
+menu.active.color2: #FEE7A3
+
+*button.pressed.appearance: sunken gradient vertical
+*button.pressed.color1: #FDFEEA
+*button.pressed.color2: #FEE7A3
+
+window.button.pressed.appearance: sunken gradient vertical
+window.button.pressed.color1: #FDFEEA
+window.button.pressed.color2: #FEE7A3
+
+
