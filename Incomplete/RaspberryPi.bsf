@@ -1,0 +1,46 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*button.*.appearance: raised gradient 
+*button.*.color1: #8C8E94
+*button.*.color2: #292C31
+
+*label.*.appearance: sunken gradient
+*label.*.color1: #102031
+*label.*.color2: #6B7D8C
+
+*title.*.appearance: raised gradient vertical border
+*title.*.color1: #848284
+*title.*.color2: #393842
+
+*handle.*.appearance: raised gradient vertical border
+*handle.*.color1: #6B7173
+*handle.*.color2: #63696B
+
+*grip.*.appearance: sunken gradient border
+*grip.*.color1: #21344A
+*grip.*.color2: #4A596B
+
+#from top to here following screenshot of lxde for raspberrypi#
+#lines below are my own additions, since not sure what theme is this based on#
+
+*textColor: white
+toolbar.*.textColor: black
+*.alignment: center
+*appearance: raised solid border
+*backgroundColor: grey
+*marginWidth: 3
+*font: Roboto Condensed-14
