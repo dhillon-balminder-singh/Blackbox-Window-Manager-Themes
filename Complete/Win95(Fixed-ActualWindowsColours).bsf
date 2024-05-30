@@ -1,0 +1,66 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Windows Classic Theme for Blackbox#
+
+#Set common appearance#
+*.appearance: raised solid border
+*.backgroundColor: #C0C0C0
+*.borderColor: #C0C0C0
+*.borderWidth: 1
+*.marginWidth: 2
+*.alignment: center
+
+#Set colours for the menu#
+Menu.Title.appearance: raised solid border
+Menu.Title.backgroundColor: #000080
+#Menu.Title.color2: #000080
+
+*.Label.focus.appearance: raised solid border
+*.Label.focus.backgroundColor: #000080
+#*.Label.focus.color2: #000080
+
+*.Label.unfocus.appearance: raised solid border
+*.Label.unfocus.backgroundColor: #808080
+#*.Label.unfocus.color2: lightgrey
+*.Label.unfocus.textColor: #C0C0C0
+
+#Windows 95 Theme for Blackbox#
+# Set the Toolbar appearance#
+#toolbar.appearance: raised solid
+
+#Set pressed buttons appearance#
+*.pressed.appearance: sunken solid
+*.pressed.backgroundColor: darkgrey
+
+#Set active menu colour#
+menu.active.backgroundColor: #000080
+
+#Set the clock appearance#
+toolbar.clock.appearance: sunken solid border
+
+#Set colours for inactive items (Eg. menus)#
+*.disabledColor: #C0C0C0
+#window.button.unfocus.foregroundColor: #C0C0C0
+window.button.unfocus.foregroundColor: #000000
+
+*font: DejaVu Sans-10
+
+window.label.focus.textColor: white
+
+rootCommand: bsetroot -solid rgb:00/80/80
+window.font: DejaVu Sans-10:Bold
+menu.title.font: DejaVu Sans-10:Bold

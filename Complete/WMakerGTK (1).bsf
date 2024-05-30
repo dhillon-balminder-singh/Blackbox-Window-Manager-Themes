@@ -1,0 +1,42 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.font:12:Bold
+*.alignment: center
+*.appearance: raised solid border
+*.backgroundColor: rgb:d5/d6/d5
+*.textColor: darkblue
+window.label.unfocus.textColor: darkblue
+window.button.unfocus.foregroundColor: darkblue
+window.button.focus.foregroundColor: white
+menu.frame.textColor: black
+menu.frame.backgroundColor: rgb:d5/d6/d5
+window.title.unfocus.backgroundColor: rgb:d5/d6/d5
+window.title.focus.backgroundColor: darkblue
+window.label.*.appearance: parentrelative
+window.button.*.appearance: parentrelative
+
+menu.title.backgroundColor: darkblue
+menu.frame.font: -12
+menu.frame.disabledColor: gray40
+menu.active.appearance: flat solid
+menu.active.backgroundColor: blue
+menu.title.textColor: white
+window.label.focus.textColor: white
+
+#CHNAGES WED 01.01.2020 14:26:38#
+menu.active.textColor: #FFFFFF
+

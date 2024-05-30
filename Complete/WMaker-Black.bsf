@@ -1,0 +1,53 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised gradient horizontal border
+*.color1: rgb:50/5a/5e
+*.color2: rgb:20/2a/2e
+
+menu.title.color1: rgb:50/5a/5e
+menu.title.color2: black
+
+menu.active.appearance: raised solid border
+menu.active.backgroundColor: white
+menu.active.textColor: black
+menu.active.foregroundColor: black
+
+menu.frame.textColor: white
+menu.frame.foregroundColor: white
+
+menu.disabled.color: gray60
+
+window.title.focus.color1: rgb:30/32/3e
+window.title.focus.color2: black
+
+window.label.*.appearance: parentrelative
+window.button.*.appearance: parentrelative
+window.label.focus.textColor: white
+
+window.button.focus.foregroundColor: white
+window.button.unfocus.foregroundColor: gray20
+window.label.unfocus.textColor: gray20
+
+window.title.unfocus.color1: rgb:a0/a2/ae
+window.title.unfocus.color2: rgb:90/92/9e
+
+toolbar.label.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.*.textColor: white
+toolbar.button.foregroundColor: white

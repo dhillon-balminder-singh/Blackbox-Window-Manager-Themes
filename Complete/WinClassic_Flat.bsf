@@ -1,0 +1,70 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Windows Classic Theme for Blackbox#
+
+#Set common appearance#
+*.appearance: flat solid 
+*.backgroundColor: grey
+*.Color: darkgrey
+*.Width: 1
+*.marginWidth: 2
+*.alignment: center
+
+#Set colours for the menu#
+Menu.Title.appearance: flat gradient horizontal 
+Menu.Title.color1: darkblue
+Menu.Title.color2: lightblue
+#*.Label.focus.appearance: flat gradient horizontal 
+#*.Label.focus.color1: darkblue
+#*.Label.focus.color2: lightblue
+
+window.label.focus.appearance: parentrelative
+window.title.focus.appearance: flat gradient HORIZONTAL
+window.title.focus.color1: dark blue
+window.title.focus.color2: LIGHT blue
+
+*.Label.unfocus.appearance: flat gradient horizontal 
+*.Label.unfocus.color1: grey
+*.Label.unfocus.color2: lightgrey
+*.Label.unfocus.textColor: darkgrey
+
+# Set the Toolbar appearance#
+#toolbar.appearance: flat solid
+
+#Set pressed buttons appearance#
+*.pressed.appearance: sunken solid
+*.pressed.backgroundColor: darkgrey
+
+#Set active menu colour#
+menu.active.appearance: flat gradient horizontal
+menu.active.color1: dark blue
+menu.active.color2: light blue
+
+#Set the clock appearance#
+toolbar.clock.appearance: flat solid 
+
+#Set colours for inactive items (Eg. menus)#
+*.disabledColor: darkgrey
+window.button.unfocus.foregroundColor: darkgrey
+
+*font: DejaVu Sans-10
+
+toolbar.windowLabel.appearance: flat gradient horizontal 
+toolbar.windowLabel.color1: grey
+toolbar.windowLabel.color2: lightgrey
+
+

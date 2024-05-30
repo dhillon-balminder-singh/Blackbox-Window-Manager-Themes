@@ -1,0 +1,50 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: flat solid border
+*borderWidth: 2
+*marginWidth: 1
+*backgroundColor: #c0c0c0
+toolbar appearance: flat solid
+
+*alignment: left
+
+menu.title.backgroundColor: #f0d000
+menu.title.textColor: #000000
+menu.active.backgroundColor: #f0d000
+menu.active.textColor: #000000
+menu.active.foregroundColor: #000000
+menu.frame.disabledColor: #404040
+
+window.button.focus.appearance:  flat solid
+window.label.focus.appearance: flat solid
+*focus.backgroundColor: #f0d000
+window.handle.focus.backgroundColor: #c0c0c0
+
+window.button.unfocus.appearance:  flat solid
+window.label.unfocus.appearance: flat solid
+*unfocus.backgroundColor: #c0c0c0
+window.handle.unfocus.backgroundColor: #c0c0c0
+*unfocus.textColor: #000000
+*unfocus.foregroundColor: #000000
+
+toolbar.windowLabel.backgroundColor: #f0d000
+*button.pressed.appearance: flat solid border
+*button.pressed.backgroundColor: #c0c0c0
+*button.pressed.foregroundColor: #000000
+*focus.borderColor: #000000
+
+rootCommand: bsetroot -solid rgb:40/60/80
