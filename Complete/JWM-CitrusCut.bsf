@@ -1,0 +1,63 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised gradient vertical border
+*.color1: #ffda51
+*.color2: #ffa100
+*.borderColor: black
+#*.color1: 
+#*.color2: 
+
+#*font: Bitstream Vera Sans-9
+*font: DejaVu Sans-12
+
+
+*.marginWidth: 1
+
+window.title.focus.color1: 
+window.title.focus.color2: 
+
+window.grip.*.appearance: raised solid border
+window.grip.focus.backgroundColor: white
+window.grip.unfocus.backgroundColor: #aaaaaa
+
+window.title.unfocus.color1: #fffa71
+window.title.unfocus.color2: #ffda51
+window.label.unfocus.textColor: #aaaaaa
+window.button.unfocus.foregroundColor: #aaaaaa
+
+#toolbar.windowLabel.color1: 
+#toolbar.windowLabel.color2: 
+
+toolbar.clock.appearance: raised solid border
+toolbar.clock.backgroundColor: #ffc100
+toolbar.clock.textColor: black
+
+#toolbar.label.appearance: raised solid border
+#toolbar.label.backgroundColor: #ffda51
+#toolbar.label.textColor: black
+
+#menu.frame.appearance: raised solid border
+#menu.frame.foregroundColor: 
+#menu.frame.backgroundColor: 
+
+#menu.active.foregroundColor: 
+#menu.active.appearance: raised gradient vertical border
+#menu.active.color1: 
+#menu.active.color2: 
+
+#window.label.*.appearance: parentrelative
+#window.button.*.appearance: parentrelative

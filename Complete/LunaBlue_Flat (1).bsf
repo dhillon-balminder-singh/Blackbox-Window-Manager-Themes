@@ -1,0 +1,61 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: flat solid
+*.backgroundColor: #0058F3
+#*.borderColor: black
+*.borderWidth: 0
+*.font: style:Bold
+*.alignment: center
+#*.button.pressed: sunken solid
+
+menu.frame.backgroundColor: #ECE9D8
+
+window.label.focus.appearance: flat solid
+window.button.focus.foregroundColor: white
+window.button.focus.backgroundColor: #0058F3
+window.button.focus.borderWidth: 1
+window.button.focus.borderColor: white
+window.title.unfocus.appearance: flat solid
+
+toolbar.label.backgroundColor: #3A7C3A
+toolbar.button.foregroundColor: white
+*.textColor: white
+
+menu.frame.foregroundColor: black
+menu.frame.textColor: black
+menu.active.backgroundColor: #0058F3
+
+window.button.pressed.appearance: sunken solid
+window.button.pressed.backgroundColor: #1A50B8
+toolbar.button.pressed.appearance: sunken solid
+toolbar.button.pressed.backgroundColor: #1A50B8
+
+menu.frame.disabledColor: #ACA899
+menu.frame.font: #LEFT BLANK TO USE DEFAULT FONT WITH REGULAR WEIGHT# 
+
+window.title.unfocus.appearance: flat solid
+window.title.unfocus.backgroundColor: #7D9BE3
+window.label.unfocus.backgroundColor: #7D9BE3
+window.label.focus.backgroundColor: #0058F3
+window.button.unfocus.backgroundColor: #7D9BE3
+
+window.handle.focus.backgroundColor: #ECE9D8
+window.handle.unfocus.backgroundColor:#7D9BE3
+window.grip.unfocus.backgroundColor:#7D9BE3
+window.handle.unfocus.backgroundColor:#ECE9D8
+
+toolbar.clock.backgroundColor: #16ACF0

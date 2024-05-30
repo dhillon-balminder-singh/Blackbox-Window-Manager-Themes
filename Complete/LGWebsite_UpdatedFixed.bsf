@@ -1,0 +1,82 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#COLOURS FROM THE LG OFFICAL WEBSITE#
+
+*.appearance: raised solid border
+*.alignment: center
+
+#toolbar.*.backgroundColor: #7D7D7D
+#toolbar.*.backgroundColor:#666666
+#toolbar.*.backgroundColor: #555555
+toolbar.*.backgroundColor: #333333
+toolbar.button.foregroundColor: #FFFFFF
+toolbar*textColor: #FFFFFF
+#toolbar.label.appearance: parentrelative
+#toolbar.clock.appearance: parentrelative
+#toolbar.windowLabel.appearance: parentrelative
+#toolbar.button.appearance: parentrelative
+
+menu.title.backgroundColor: #333333
+#menu.frame.backgroundColor: #ECFFD6
+#menu.frame.backgroundColor: #FFFFFF
+menu.frame.backgroundColor: #E9EBF0
+#menu.frame.foregroundColor: #D6D6D6
+menu.frame.foregroundColor: #333333
+menu.frame.textColor: #000000
+
+menu.active.backgroundColor: #A50034
+
+window.title.focus.backgroundColor: #333333
+window.label.focus.backgroundColor: #A50034
+#window.label.focus.appearance: parentrelative
+#window.button.focus.appearance: parentrelative
+window.button.focus.backgroundColor: #333333
+window*textColor: #FFFFFF
+window.button.focus.foregroundColor: #D6D6D6
+
+window.title.unfocus.backgroundColor: #555555
+window.label.unfocus.backgroundColor: #7D7D7D
+#window.label.focus.appearance: parentrelative
+#window.button.unfocus.appearance: parentrelative
+window*textColor: #FFFFFF
+window.button.unfocus.backgroundColor: #555555
+window.button.unfocus.foregroundColor: #D6D6D6
+
+window.grip.focus.backgroundColor: #A50034
+window.grip.unfocus.backgroundColor: #7D7D7D
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: #666666
+
+#slit.backgroundColor: #7D7D7D
+#slit.backgroundColor:#666666
+#slit.backgroundColor: #555555
+slit.backgroundColor: #333333
+
+*font: DejaVu Sans-10
+
+rootCommand: bsetroot -solid rgb:CC/CC/CC
+
+
+
+
+
+
+
+
+
+

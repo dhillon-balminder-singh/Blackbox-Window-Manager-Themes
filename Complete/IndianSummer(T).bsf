@@ -1,0 +1,59 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance:	raised solid border
+*color:	#FBF5DE
+*colorTo: #FBF5DE
+
+window.label.focus.appearance: raised gradient horizontal border
+window.label.focus.colorTo: #C96A08
+window.label.focus.color: #8B2020
+*.borderColor: #D6A837
+
+toolbar.windowLabel.appearance: raised gradient horizontal border
+toolbar.windowLabel.colorTo: #C96A08
+toolbar.windowLabel.color: #8B2020
+
+*.textColor: grey10
+
+menu.title.appearance: raised gradient horizontal border
+menu.title.colorTo: #C96A08
+menu.title.color: #8B2020
+
+menu.frame.appearance:	raised gradient  border
+menu.frame.color:	#FBF5DE
+menu.frame.colorTo: #FBF5DE
+
+menu.active.appearance:	raised gradient  border
+menu.active.color:	#FFE653
+menu.active.colorTo: #D6A837
+
+window.button.*.backgroundColor: #D6A837
+
+*.borderColor: #8B2020
+*.foregroundColor: grey10
+
+*button.pressed.appearance: sunken gradient
+*button.pressed.color1: #FBF5DE
+*button.pressed.color2: #FBF5DE
+
+window.button.unfocus.foregroundColor: #FBF5DE
+window.label.unfocus.textColor: #040A21
+window.label.focus.textColor: #FBF5DE
+toolbar.windowLabel.textColor: #FBF5DE
+
+*.font: URW Chancery L-16
+*.alignment: center

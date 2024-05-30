@@ -1,0 +1,48 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance:  raised solid border
+*.borderWidth: 3
+*.borderColor: dark grey
+*.backgroundColor: grey
+*.foregroundColor: black
+*.font: Courier-12:style=Oblique
+*.marginWidth: 5
+
+window.label.unfocus.backgroundColor: white
+
+menu.title.backgroundColor: dark blue
+menu.active.backgroundColor: #00CED1
+menu.active.fgColor: white
+
+menu.frame.disabled: dark grey
+
+
+window.label.focus.backgroundColor: dark grey
+window.label.focus.textColor: white
+window.label.unfocus.textColor: black
+menu.active.foregroundColor: white
+window.*.focus.borderColor: grey90
+window.label.unfocus.backgroundColor: grey
+window.label.focus.backgroundColor: #0606B1
+#window.label.focus.font: -*-*-bold-o-*-*-0-*-*-*-*-*-*-*
+#menu.frame.font: -*-*-bold-o-*-*-0-*-*-*-*-*-*-*
+window.label.focus.font: Courier-12:style=Oblique
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: red
+
+rootCommand: bsetroot -solid rgb:2F/4F/4F

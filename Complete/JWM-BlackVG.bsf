@@ -14,17 +14,33 @@
 #along with this program; if not, write to the Free Software
 #Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-*.appearance: flat solid border
-*.backgroundColor: black
-*.borderColor: white
-*.foregroundColor: white
-#*.marginWidth: ?
-*.textColor: white
-menu.active.backgroundColor: white
-menu.active.textColor: black
+#Common values#
 
-*.font: Fixed-12
+*.appearance: raised gradient vertical border
+*color1: #9dbbdb
+*color2: black
+#*backgroundColor: 
+*foregroundColor: yellow
+*font: DejaVu Sans-12:bold
+*.textColor: yellow
+window.button.*.appearance: parentrelative
+window.label.*.appearance: parentrelative
 
-*button.pressed.appearance: flat solid border
-*button.pressed.backgroundColor: black
-*.button.pressed.borderWidth: 2
+#Menu title values#
+menu.frame.appearance: raised solid border
+menu.frame.backgroundColor: #4D525B
+menu.active.backgroundColor: 
+
+
+#Window values#
+#window.title.focus.backgroundColor: 
+window.title.unfocus.color1: gray70
+window.title.unfocus.color2: gray30
+window.label.unfocus.textColor: gray90
+#window.grip.focus.backgroundColor: 
+#window.grip.unfocus.backgroundColor: 
+window.button.unfocus.foregroundColor: gray90
+
+
+
+

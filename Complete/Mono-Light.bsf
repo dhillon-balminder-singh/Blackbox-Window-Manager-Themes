@@ -18,6 +18,15 @@
 *.backgroundColor: white
 *.borderColor: black
 *.foregroundColor: black
-*.marginWidth: ?
-menu.active.backgroundColor: white
-menu.active.textColor: black
+#*.marginWidth: ?
+*.textColor: black
+menu.active.backgroundColor: black
+menu.active.textColor: white
+
+*.font: Fixed-12
+
+*button.pressed.appearance: flat solid border
+*button.pressed.backgroundColor: white
+*.button.pressed.borderWidth: 2
+
+

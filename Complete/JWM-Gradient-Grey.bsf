@@ -1,0 +1,53 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#GRADIENT-GREY FOR BLACKBOX#
+#BY DHILLON,BALMINDER S <dhillon.balminder.singh@gmail.com>#
+#BSED ONCOLOURS FROM GRADIENT-GREY GTKTHEME BY BARRY KAULER#
+
+
+*appearance: raised gradient vertical border
+*font: DejaVu Sans-12
+#*backgroundColor: #EEEEEE
+
+menu.frame.disabledColor: #9B9B9B
+
+#*color: #FFFFFF
+#*colorTo: #E9E8E9
+#using tab3.png
+
+
+*color: #FFFFFF
+*colorTo: #ACABAC
+#using tab2.png#
+
+#*color: #F7F7F7
+#*colorTo: #7F7F7F
+#using tab1.png#
+
+menu.active.color: #F7F7F7
+menu.active.color2: #7F7F7F
+
+window.label.focus.appearance: parentrelative
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+
+*button.pressed.appearance: sunken gradient vertical
+*button.pressed.color1: #F7F7F7
+*button.pressed.color2: #7F7F7F
+
+

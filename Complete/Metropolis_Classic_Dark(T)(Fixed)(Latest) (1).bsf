@@ -1,0 +1,58 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: FLAT SOLID border
+*.backgroundColor: grey20
+#*.marginWidth: 1
+*.font: SegoeWP-11:style:Bold
+*.textColor: grey80
+*.foregroundColor: grey80
+menu.active.backgroundColor: grey40
+menu.active.textColor: #FFFFFF
+menu.active.foregroundColor: #FFFFFF
+#menu.frame.marginWidth: 5
+#*foregroundColor: #2D2D2E
+window.label.focus.appearance: flat gradient horizontal border
+window.label.focus.color1: grey20
+window.label.focus.color2: grey40
+*borderColor: #888888
+*borderWidth: 1
+*.alignment: CENTER
+
+#rootCommand: bsetroot -solid rgb:3B/6E/A5
+rootCommand: bsetroot -solid black
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: #0078D7
+*button.appearance: flat solid border
+*button.foregroundColor: grey80
+
+window.label.unfocus.appearance: flat gradient horizontal border
+window.label.unfocus.color1: grey40
+window.label.unfocus.color2: grey60
+
+toolbar.windowLabel.appearance: flat gradient horizontal border
+toolbar.windowLabel.color1: grey20
+toolbar.windowLabel.color2: grey40
+toolbar.windowLabel.textColor: #E5DFE5
+
+window.label.focus.textColor: #E5DFE5
+window.label.unfocus.textColor: grey30
+window.button.unfocus.foregroundColor: dark grey
+
+window.grip.focus.appearance: flat gradient horizontal border
+window.grip.focus.color1: grey20
+window.grip.focus.color2: grey40

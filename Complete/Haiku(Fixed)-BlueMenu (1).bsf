@@ -1,0 +1,53 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: raised gradient border
+*color1: #FED642
+*color2: #FEE382
+*.borderColor: #979797
+rootCommand: bsetroot -solid RGB:32/66/98
+menu.title.appearance: raised gradient border
+#*color1: #FED642
+#*color2: #FEE382
+#menu.*.appearance: raised solid border
+menu.active.backgroundColor: #9B9B9B
+menu.frame.backgroundColor: #D8D8D8
+window.button.*.appearance: parentrelative
+window.label.*.appearance: parentrelative
+window.button.focus.foregroundColor: #4C4C4C
+window.button.unfocus.foregroundColor: #A2A2A2
+*.textColor: #000000
+toolbar.appearance: raised gradient border
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+menu.title.font: :style=Bold
+*borderWidth: 1
+window.title.unfocus.appearance: raised gradient border
+window.title.unfocus.color1: #F4F4F4
+window.title.unfocus.color2: #EEEEEE
+window.handle.focus.appearance: raised solid border
+window.handle.unfocus.appearance: raised solid border
+window.handle.focus.backgroundColor: #D8D8D8
+window.handle.unfocus.backgroundColor: #D8D8D8
+window.grip.unfocus.appearance: raised solid border
+window.grip.unfocus.backgroundColor: #F4F4F4
+
+#ADDED WEDNESDAY 11 DEC#
+menu.active.appearance: raised gradient vertical border
+menu.active.color1: #326191
+menu.active.color2: #4775A2

@@ -1,0 +1,69 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#BASED ON MAVERICKS 1.0 BY @Toni_Link#
+
+#*font: Lucida Grande-8
+*font: -9
+*borderWidth: 1
+*.borderColor: #3b3b3b
+*appearance: flat gradient vertical
+*.color1: #e7e7e7
+*.color2: #b0b0b0
+*textColor: #3b3b3b
+*foregroundColor: #3b3b3b
+*alignment: center
+#*.unfocused.textColor: #878787
+menu.frame.appearance:	flat gradient vertical
+menu.frame.color1: #efefef
+menu.frame.color2: #efefef
+menu.frame.disableColor: #726d69
+
+menu.active.appearance: flat gradient vertical
+menu.active.color1: #69b0e4
+menu.active.color2: #3486d2
+
+#window.title.unfocus.color1: #e7e7e7				
+#window.title.unfocus.color2: #b0b0b0
+
+window.button.focus.appearance: ParentRelative
+window.button.unfocus.appearance: ParentRelative
+*pressed.appearance: Flat gradient
+*pressed.color1:				#4C4C4C
+*pressed.color2:				#545454
+window.button.pressed.foregroundColor: #b0b0b0
+
+window.handle.focus.appearance: flat				
+#window.handle.focus.backgroundColor: red			
+#window.handle.unfocus.appearance: flat				
+#window.handle.unfocus.backgroundColor: red	
+#window.handleWidth: 1
+
+#window.grip.focus.appearance: flat				
+#window.grip.focus.color: #b0b0b0
+#window.grip.unfocus.appearance: flat				
+#window.grip.unfocus.color: #b0b0b0
+
+#*.unfocus.foregroundColor: #3b3b3b
+
+slit.appearance : flat gradient vertical
+slit.color1:  #e7e7e7
+slit.color2: #b0b0b0	
+slit.borderWidth: 1
+slit.borderColor: #8c8c8c
+
+window.frame.focus.borderColor: #3b3b3b
+window.frame.focus.borderColor: #3b3b3b

@@ -1,0 +1,57 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+rootCommand: bsetroot -gradient diagonalgradient -from royalblue -to black
+#rootCommand: bsetroot -gradient verticalgradient -from "#7790AA" -to grey10 
+
+#Global appearance keys#
+*.appearance: raised solid border
+#General raised solid border look except for active titlebars
+*.backgroundColor: #F5F5F5
+#Used F5F5F5 colour for an off-white appearance instead of grey/white
+*.borderColor: black
+*.focus.appearance: raised solid border
+*.unfocus.appearance: flat solid border
+#*.unfocus.appearance: raised solid border
+window.label.focus.appearance: raised gradient border 
+*color1: black
+*color2: blue
+*.borderWidth: 1
+*.marginWidth: 1
+
+*.alignment: center
+*.font: Bitstream Vera Sans-10
+
+#Active window appearance keys#
+window.label.focus.textColor: white
+window.font: Bitstream Vera Sans-10:style=Bold
+
+#Inactive window appearance keys#
+window.label.unfocus.textColor: darkgrey
+window.button.unfocus.foregroundColor: darkgrey
+
+#Menu appearance keys#
+menu.title.appearance: raised gradient border
+menu.title.textColor:white
+menu.title.font: Bitstream Vera Sans-10:style=Bold
+menu.frame.disabledColor: darkgrey
+
+#Active menu appearance keys#
+menu.active.backgroundColor: dark blue
+
+#Pressed items appearance keys#
+*.pressed.appearance: sunken solid
+*.pressed backgroundColor: white

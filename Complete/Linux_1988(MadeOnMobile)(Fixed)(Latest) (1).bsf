@@ -14,17 +14,19 @@
 #along with this program; if not, write to the Free Software
 #Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
-*.appearance: flat solid border
-*.backgroundColor: black
-*.borderColor: white
-*.foregroundColor: white
-#*.marginWidth: ?
-*.textColor: white
-menu.active.backgroundColor: white
-menu.active.textColor: black
+*.appearance:  raised solid border
+*.borderWidth: 2
+*.borderColor: black
+*.backgroundColor: grey
+*.foregroundColor: black
+*marginWidth: 3
 
-*.font: Fixed-12
+window.label.focus.backgroundColor: dark blue
+window.label.unfocus.backgroundColor: white
 
-*button.pressed.appearance: flat solid border
-*button.pressed.backgroundColor: black
-*.button.pressed.borderWidth: 2
+menu.title.backgroundColor: dark blue
+menu.active.backgroundColor: dark blue
+menu.active.foregroundColor: white
+
+menu.frame.disabled: dark grey
+window.*.focus.borderColor: dark blue

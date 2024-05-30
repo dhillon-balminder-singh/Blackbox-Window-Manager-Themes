@@ -1,0 +1,90 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Blackbox theme mimicking the Karmen windowmanager#
+#By Balminder Singh Dhillon. email: dhillon.balminder.singh@gmail.com#
+#Made on 13 Jan 2020#
+/*
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published by
+ *      the Free Software Foundation; either version 2 of the License, or
+ *      (at your option) any later version.
+ *      
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ *      
+ *      You should have received a copy of the GNU General Public License
+ *      along with this program; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ *      MA 02110-1301, USA.
+ */
+
+rootCommand: bsetroot -solid rgb:B3/B3/B3
+*.appearance: raised solid border
+*.backgroundColor: #DCDAD5
+*.foregroundColor: #000000
+*.borderWidth: 1
+*.borderColor: #DCDAD5
+*.textColor: black
+*.font: Fixed-12:style=Bold
+
+#WINDOW COMPONENTS SECTION#
+#Note: borderWidth & marginWitdh don't work with each other#
+
+window.title.*.marginWidth: 0
+window.label.focus.appearance: raised interlaced border
+window.label.focus.color1: #FFFFFF
+window.label.focus.color2: #9C9A9F
+#window.label.focus.appearance: parentrelative
+#window.button.*.appearance: parentrelative
+window.*.unfocus.backgroundColor: #ACAAA5
+window.*.unfocus.borderColor: #ACAAA5
+window.label.*.marginWidth: 2
+window.handleHeight: -1
+
+#MENU COMPONENTS SECTION#
+menu.frame.appearance: flat solid border
+menu.frame.backgroundColor: white
+menu.frame.borderColor: black
+menu.frame.borderWidth: 1
+
+menu.active.appearance: flat solid border
+menu.active.backgroundColor: #DCDAD5
+menu.active.borderColor: #9C9A9F
+menu.active.borderWidth: 1
+
+menu.title.appearance: parentrelative
+menu.title.font: -0
+menu.title.textColor: parentrelative
+
+toolbar.title.*.marginWidth: 0
+toolbar.appearance: raised interlaced border
+toolbar.color1: #FFFFFF
+toolbar.color2: #9C9A9F
+#toolbar.label.focus.appearance: parentrelative
+#toolbar.button.*.appearance: parentrelative
+#toolbar.*.unfocus.backgroundColor: #ACAAA5
+toolbar.borderColor: #ACAAA5
+toolbar.marginWidth: 0
+
+#CHANGES MON 03 FEB 2020 15:08:55#
+menu.frame.foregroundColor: 
+menu.active.foregroundColor: #DCDAD5
+#Changed foreground colours to closer match karmen wm#
+
+

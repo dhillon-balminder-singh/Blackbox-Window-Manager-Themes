@@ -1,0 +1,60 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised solid border
+*.backgroundColor: #E6E6E6
+*.foregroundColor: #676767
+
+*.borderColor: #5C5C5C
+
+window.label.focus.appearance: flat gradient horizontal
+window.label.focus.color1: #464F86
+window.label.focus.color2: #727ECA
+window.label.focus.textColor: white
+
+window.label.unfocus.appearance: flat gradient horizontal
+window.label.unfocus.color1: #C5C5C5
+window.label.unfocus.color2: #D6D6D6
+window.label.unfocus.textColor: #7F7F7F
+
+window.button.*.appearance: flat solid
+window.button.unfocus.foregroundColor: #777777
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: darkgrey
+
+menu.title.appearance: raised gradient horizontal border
+menu.title.color1: #464F86
+menu.title.color2: #727ECA
+menu.title.textColor: white
+
+menu.active.appearance: flat gradient horizontal border
+menu.active.color1: #464F86
+menu.active.color2: #727ECA
+menu.active.textColor: white
+
+#CHANGES SAT 04.01.2020 11:53:36#
+window.font: -12:style=Bold
+menu.title.font: -12:style=Bold
+
+#CHANGES Sun 01.05.2020 15:11:09#
+
+toolbar.label.appearance: flat solid
+toolbar.windowLabel.appearance: flat solid
+toolbar.clock.appearance: flat solid
+toolbar.button.appearance: flat solid
+
+*.alignment: left
