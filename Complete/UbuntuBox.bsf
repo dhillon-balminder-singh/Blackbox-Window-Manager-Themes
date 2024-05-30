@@ -1,0 +1,62 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.appearance: raised gradient vertical border
+#*.color1: #62605F
+
+*.color1: #58574E
+*.color2: #3F3E3A
+
+*.borderColor: #58574E
+*.foregroundColor: #3D3C37
+*.font: Ubuntu-12:style=Bold
+
+*.textColor: #DFDBC4
+
+*.button.color1: #93928C
+*.button.color1: #5E5D59
+*.button.borderColor: #3A3936
+
+*button.pressed.appearance: sunken gradient vertical border
+*button.pressed.color1: #EA9174
+*button.pressed.color2: #DE4F1D
+
+window.button.*.color1: #93928C
+window.button.*.color2: #5E5D59
+window.button.*.borderColor: #3A3936
+
+window.button.pressed.appearance: sunken gradient vertical border
+window.button.pressed.color1: #EA9174
+window.button.pressed.color2: #DE4F1D
+
+window.label.*.appearance: parentrelative
+
+toolbar.label.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.button.*.color1: #93928C
+toolbar.button.*.color2: #5E5D59
+toolbar.button.*.borderColor: #3A3936
+
+toolbar.button.pressed.appearance: sunken gradient vertical border
+toolbar.button.pressed.color1: #EA9174
+toolbar.button.pressed.color2: #DE4F1D
+
+
+
+
+

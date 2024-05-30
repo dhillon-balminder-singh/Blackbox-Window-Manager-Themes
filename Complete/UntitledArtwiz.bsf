@@ -1,0 +1,65 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*.font: Bandal-11
+*.appearance: raised gradient diagonal 
+*.color1: rgb:90/94/98
+*.color2: rgb:20/24/28
+*.textColor: #FFFFFF
+*.foregroundColor: #FFFFFF
+*.alignment: center
+
+menu.frame.appearance: flat gradient diagonal border
+menu.frame.color1: rgb:10/20/30
+menu.frame.color2: rgb:70/80/90
+
+menu.frame.disabledColor: black
+
+window.label.focus.appearance: parentrelative
+window.label.unfocus.appearance: parentrelative
+
+window.title.focus.color1: rgb:10/20/30
+window.title.focus.color2: rgb:70/80/90
+
+#FOR BLACKBOX V0.6 COMPATIBILITY#
+*.justify: center
+
+menu.hilite: raised gradient diagonal
+menu.hilite.color: rgb:90/94/98
+menu.hilite.colorTo: rgb:20/24/28
+menu.hilite.textColor: white
+
+menu.frame.disableColor: black
+
+toolbar.label.appearance: parentrelative
+#toolbar.button.appearance: parentrelative
+
+toolbar.windowLabel.appearance: sunken gradient
+toolbar.windowLabel.color1: rgb:10/20/30
+toolbar.windowLabel.color2: rgb:70/80/90
+
+toolbar.clock.appearance: sunken gradient
+toolbar.clock.color1: rgb:10/20/30
+toolbar.clock.color2: rgb:70/80/90
+
+*.button.pressed:  sunken gradient diagonal
+*.button.pressed.color1: black
+*.button.pressed.color2: rgb:80/98/d0
+
+rootCommand: bsetroot -solid grey
+
+window.handle.focus.color1: rgb:10/20/30
+window.handle.focus.color2: rgb:70/80/90

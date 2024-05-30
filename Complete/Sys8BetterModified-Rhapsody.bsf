@@ -1,0 +1,94 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Wmaker Rhaps clone#
+
+
+
+*textColor: black
+
+window.title.focus.appearance: raised solid border
+window.title.focus.backgroundColor: #CCCCCC
+
+window.button.focus.appearance: raised gradient diagonal border
+window.button.focus.color1: #999999
+window.button.focus.color2: #FFFFFF
+#window.button.focus.borderColor: #222222
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: #A4A4A4
+#^BUTTON PRESSED COLOR NOT SURE#
+toolbar.appearance: raised solid border
+toolbar*appearance: flat solid
+window.title.unfocus.appearance: flat solid border
+window.label.unfocus.appearance: flat solid
+#window.button.unfocus.appearance: flat solid
+window.label.unfocus.textColor: #6E6E6E
+#window.frame.unfocus.borderColor: #555555
+#window.*.unfocus.borderColor: #555555
+menu.active.textColor: white
+
+#^ ACTIVE MENU COLOUR TAKEN FROM OSX DEVELOPER PREVIEW #
+window.grip.focus.appearance: raised solid border
+window.grip.focus.backgroundColor: #DDDDDD
+#window.grip.focus.borderColor: #222222
+
+#CHANGES FROM SYS8 THEME#
+#UPDATED 19 JAN 2020 15:35:50#
+
+menu.active.appearance: flat solid
+menu.active.backgroundColor: #9285b5
+
+#window.button.focus.foregroundColor: #242424
+window.button.focus.foregroundColor: #000000
+window.button.unfocus.foregroundColor: #5b5b5b
+
+rootCommand: bsetroot -solid "#554466"
+
+menu.frame.disabledColor: #5d5d5d
+#menu.frame.backgroundColor: #dcdcdc
+
+*.backgroundColor: #dcdcdc
+*.font: Aquabase-12
+
+slit.appearance: raised interlaced border
+slit.color1: #C4C4C4
+slit.color2: #E8E8E8
+
+window.title.unfocus.appearance: raised gradient vertical border
+window.title.unfocus.color1: #DDDDDD
+window.title.unfocus.color2: #A9A9A9
+
+window.grip.*.appearance: raised gradient vertical border
+window.grip.*.color1: #DDDDDD
+window.grip.*.color2: #A9A9A9
+
+#window.button.unfocus.appearance: parentrelative
+#window.label.unfocus.appearance: parentrelative
+
+*.borderColor: black
+
+*.appearance: raised solid border
+*.alignment: center
+
+menu.title.appearance: raised interlaced border
+menu.title.color2: #E8E8E8
+menu.title.color1: #C4C4C4
+
+window.label.focus.appearance: flat interlaced
+window.label.focus.color1: #E8E8E8
+window.label.focus.color2: #C4C4C4
+
+#*marginWidth: 1

@@ -1,0 +1,77 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#THIS IS A MACINTOSH BLACK & WHITE THEME CLONE FOR BLACKBOX#
+#THIS VERSION IS WITHOUT WINDOW LABELS#
+#WINDOW LABEL FONTS ARE SET TO 0, SINCE I'M NOT SURE HOW TO  DISABLE THE WINDOW LABELS#
+#NOTE: THIS VERSION HAS NO BORDERS FOR THE TOOLBARS, EXCEPT THE TOOLBAR BUTTONS#
+#Global appearance settings#
+*.appearance: flat solid border
+*.backgroundColor: white
+*.borderColor: black
+*.focus.appearance: flat border
+*.unfocus.appearance: flat border
+*.label.focus.appearance: flat interlaced 
+*color1: black
+*color2: white
+*.borderWidth: 1
+*.marginWidth: 1
+*.title.appearance: flat interlaced border
+*.alignment: center
+*.font: ChicagoFLF-10
+
+#Active window & appearance settings#
+window.label.focus.textColor: black
+window.font: ChicagoFLF-0:style=Bold
+menu.title.textColor:black
+menu.title.font: ChicagoFLF-10:style=Bold
+
+#Selected menu settings#
+menu.active.backgroundColor: black
+menu.active.foregroundColor: white
+
+#Pressed items appearance settings#
+*.pressed.appearance: sunken solid
+
+toolbar.appearance: flat solid
+toolbar.alignment: center
+toolbar*textColor: black
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.button.appearance: flat solid border
+toolbar.windowLabel.appearance: parentrelative
+
+#Done by: Balminder S Dhillon#
+#contact: dhillon.balminder.singh@gmail.com#
+#Made on: 11.09.2019 15:23:44#
+
+/*
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published by
+ *      the Free Software Foundation; either version 2 of the License, or
+ *      (at your option) any later version.
+ *      
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ *      
+ *      You should have received a copy of the GNU General Public License
+ *      along with this program; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ *      MA 02110-1301, USA.
+ */
+

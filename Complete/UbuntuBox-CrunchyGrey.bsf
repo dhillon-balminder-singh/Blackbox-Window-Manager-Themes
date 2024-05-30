@@ -1,0 +1,102 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Ambiance Crunchy for Blackbox#
+#Base theme: UbuntuBox by Dhilon,Balminder S#
+#Adapted with colours from Ambiance Crunchy by frombenny#
+
+*.appearance: raised gradient vertical
+#*.color1: #62605F
+
+*.color1: #59574E
+*.color2: #3c3b37
+
+*.borderColor: #333330
+*.foregroundColor: #3D3C37
+*.font: DejaVu Sans-12:style=Bold
+
+*.textColor: #DFDBC4
+
+*.button.color1: #93928C
+*.button.color1: #5E5D59
+*.button.borderColor: #3A3936
+
+*button.pressed.appearance: sunken gradient vertical
+*button.pressed.color1: #EA9174
+*button.pressed.color2: #DE4F1D
+
+window.button.*.color1: #93928C
+window.button.*.color2: #5E5D59
+window.button.*.borderColor: #3A3936
+
+window.button.pressed.appearance: sunken gradient vertical 
+window.button.pressed.color1: #5E5D59
+window.button.pressed.color2: #93928C
+
+window.label.*.appearance: parentrelative
+
+toolbar.label.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+toolbar.button.*.color1: #93928C
+toolbar.button.*.color2: #5E5D59
+toolbar.button.*.borderColor: #3A3936
+
+toolbar.button.pressed.appearance: sunken gradient vertical 
+toolbar.button.pressed.color1: #EA9174
+toolbar.button.pressed.color2: #DE4F1D
+
+
+#Changes Fri 31 Jan 2020 14:21:49#
+#Added from frombenny's theme#
+*unfocus.color1: #3c3b37
+*unfocus.color2: #dfd8c8
+*unfocus.textColor:	#948c86
+*alignment: center
+window.grip.*.appearance: solid 
+window.grip.*.backgroundColor: #E6E6E3
+window.handle.*.appearance: raised solid 
+window.handle.*.backgroundColor: #E6E6E3
+window.label.*.textColor: #dfd8c8
+menu.frame.appearance: raised gradient horizontal
+menu.frame.color1: #3c3b37
+menu.frame.color2: #59574E
+menu.frame.disabledColor: #858178
+menu.frame.alignment: left
+menu.active.appearance:: flat gradient vertical
+menu.active.color1: #A0A0BA
+menu.active.color2: #4A4A57
+menu.active.textColor: #ffffff
+menu.title.appearance: raised gradient Elliptic
+menu.title.color1: #4A4A57
+menu.title.color2: #3c3b37
+menu.title.font: DejaVu Sans-9
+menu.title.textColor: #D9D6C7
+slit.borderColor: #262523
+toolbar.borderWidth: 0
+toolbar.clock.font: DejaVu Sans-10:bold
+
+##
+window.title.unfocus.color1: #58564F
+window.title.unfocus.color2: #3C3B37
+
+#FOR BLACKBOX 0.6 COMPATIBILITY#
+menu.hilite.color: #A0A0BA
+menu.hilite.colorTo: #4A4A57
+menu.hilite.textColor: #ffffff
+
+

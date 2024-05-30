@@ -1,0 +1,44 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Windows 3 Theme for #000000box#
+#Set common appearance#
+*.appearance: raised solid border
+*.backgroundColor: #C0C0C0
+*.borderColor: #000000
+*.borderWidth: 2
+*.marginWidth: 2
+*.alignment: center
+
+#*.Label.focus.appearance: raised solid border
+*.Label.focus.backgroundColor: #000080
+*.label.focus.textColor: #FFFFFF
+
+window.button.*.appearance: raised solid border
+window.button.*.backgroundColor: #FFFFFF
+
+#menu.title.appearance: raised solid border
+menu.title..backgroundColor: #000080
+
+*.font: Fixed-12:Bold
+
+window.label.unfocus.backgroundColor: #FFFFFF
+window.label.unfocus.textColor: #000000
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: darkgrey
+window.button.pressed.appearance: sunken solid
+window.button.pressed.backgroundColor: darkgrey

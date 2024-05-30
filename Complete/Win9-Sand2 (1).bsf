@@ -1,0 +1,61 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Windows Classic Theme for Blackbox#
+
+#Set common appearance#
+*.appearance: raised solid border
+*.backgroundColor:#D2D2BE
+*.borderColor: darkgrey
+*.borderWidth: 1
+*.marginWidth: 2
+*.alignment: center
+
+#Set colours for the menu#
+Menu.Title.appearance: raised solid border
+Menu.Title.backgroundColor: darkblue
+#Menu.Title.color2: darkblue
+
+*.Label.focus.appearance: raised solid border
+*.Label.focus.backgroundColor: darkblue
+#*.Label.focus.color2: darkblue
+
+*.Label.unfocus.appearance: raised gradient horizontal border
+*.Label.unfocus.color1: grey
+*.Label.unfocus.color2: lightgrey
+*.Label.unfocus.textColor: darkgrey
+
+#Windows 95 Theme for Blackbox#
+# Set the Toolbar appearance#
+#toolbar.appearance: raised solid
+
+#Set pressed buttons appearance#
+*.pressed.appearance: sunken solid
+*.pressed.backgroundColor: darkgrey
+
+#Set active menu colour#
+menu.active.backgroundColor: blue
+
+#Set the clock appearance#
+toolbar.clock.appearance: sunken solid border
+
+#Set colours for inactive items (Eg. menus)#
+*.disabledColor: darkgrey
+window.button.unfocus.foregroundColor: darkgrey
+
+*font: DejaVu Sans-10
+
+window.label.focus.textColor: white
