@@ -1,0 +1,77 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#Based on the colours specified at http://gnustep.made-it.com/BuildGuide/ #
+#By Balminder Singh Dhillon. email: dhillon.balminder.singh@gmail.com#
+#Date: 25 March 2020#
+
+/*
+ *      This program is free software; you can redistribute it and/or modify
+ *      it under the terms of the GNU General Public License as published by
+ *      the Free Software Foundation; either version 2 of the License, or
+ *      (at your option) any later version.
+ *      
+ *      This program is distributed in the hope that it will be useful,
+ *      but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *      GNU General Public License for more details.
+ *      
+ *      You should have received a copy of the GNU General Public License
+ *      along with this program; if not, write to the Free Software
+ *      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ *      MA 02110-1301, USA.
+ */
+
+rootCommand: bsetroot -solid "#636B9D"
+*.appearance: raised solid border
+*.backgroundColor: #DDDDDD
+*.alignment: center
+*.foregroundColor: black
+
+menu.active.backgroundColor: #02014F
+menu.active.textColor: white
+menu.active.foregroundColor: white
+*.textColor: black
+menu.frame.disabledColor: darkgrey
+menu.frame.alignment: center
+
+window.title.focus.backgroundColor: #A9A9A9
+window.grip.focus.backgroundColor: #A9A9A9
+window.handle.focus.backgroundColor: #A9A9A9
+
+window.label.focus.appearance: flat interlaced
+window.label.focus.color2: #CEC6CE
+window.label.focus.color1: #6B6B6B
+
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: white
+
+*.marginWidth: 2
+
+*.font: Charcoal-12:style=Bold
+
+menu.title.appearance: raised interlaced border
+menu.title.color1: #CEC6CE
+menu.title.color2: #6B6B6B
+
+window.label.unfocus.appearance: flat solid
+
+window.button.*.appearance: raised gradient diagonal border
+window.button.*.color1: #999999
+window.button.*.color2: #FFFFFF
+window.button.focus.borderColor: #222222
+*button.pressed.appearance: sunken solid border
+*button.pressed.backgroundColor: #A4A4A4

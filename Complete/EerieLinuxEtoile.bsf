@@ -1,0 +1,47 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+#*.appearance: raised solid
+*.appearance: raised solid border
+*.backgroundColor: grey
+menu.title.backgroundColor: grey20
+menu.active.backgroundColor: grey98
+menu.active.textColor: black
+menu.active.foregroundColor: grey30
+window.title.focus.backgroundColor: grey20
+#window.title.unfocus.backgroundColor: grey
+window.label.*.appearance: parentrelative
+window.button.*.appearance: parentrelative
+window.label.focus.textColor: 
+window.button.focus.foregroundColor: 
+window.label.unfocus.textColor: grey30
+window.button.unfocus.foregroundColor: grey30
+toolbar.label.appearance: parentrelative
+toolbar.button.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: sunken solid 
+toolbar.clock.backgroundColor: grey60
+*.font: Dejavu Sans-10
+window.font: Dejavu Sans-10:style=Bold
+menu.title.font: Dejavu Sans-10:style=Bold
+rootCommand: bsetroot -solid "#634B85"
+*.alignment: center
+slit.appearance: flat solid
+slit.backgroundColor: grey30
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: grey30
+window.button.pressed.appearance: sunken solid
+window.button.pressed.backgroundColor: grey90
