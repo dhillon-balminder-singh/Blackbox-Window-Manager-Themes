@@ -1,0 +1,51 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: flat solid border
+
+*backgroundColor: white
+*foregroundColor: black
+*textColor: black
+*marginWidth: 2
+
+*borderWidth: 1
+*borderColor: light grey
+
+*font: Roboto-12
+
+window.title.focus.backgroundColor: red
+window.title.unfocus.backgroundColor: dark grey?
+
+window.title.focus.textColor: white
+window.title.unfocus.textColor: white
+
+menu.title.backgroundColor: red
+menu.title.textColor: white
+
+menu.frame.backgroundColor: white
+menu.frame.textColor: black
+
+menu.active.backgroundColor: light grey
+menu.active.foregroundColor: black
+menu.active.textColor: black
+
+menu.frame.disabled.textColor: light grey
+window.button.focus.backgroundColor: black
+window.button.focus.foregroundColor: white
+
+window.button.unfocus.backgroundColor: red
+window.button.unfocus.foregroundColor: white
+

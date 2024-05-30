@@ -1,0 +1,67 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+A style like the Netfront Browser for Windows CE/Mobile
+By Dhillon, Balminder S
+Contact : dhillon.balminder.singh@gmail.com
+01 Dec 2019, 02:42
+
+#Insert License here#
+
+#COMMON KEYS#
+
+*color: white
+*color2: black
+*borderWidth: 1
+*borderColor: black
+*font: tahoma-12
+
+#WINDOW APPEARANCE KEYS#
+
+window.title.*.appearance: raised gradient vertical border
+
+	#window.title.focus.color1: white
+	#window.title.focus.color2: black
+	window.title.unfocus.color1: (-20%)
+	window.title.unfocus.color2: (-20%)
+
+window.button.*.appearance: flat solid border
+	window.button.*.bgColor: dark grey
+	window.button.*.fgColor: white
+
+window.label.*.appearance: parentrelative
+	window.label.textColor: white
+
+#MENU APPEARANCE KEYS#
+
+menu.frame.appearance: flat solid border
+	menu.frame.bgColor: white
+	menu.frame.textColor: dark grey
+	menu.frame.fgColor: dark grey
+
+menu.active.appearance: flat solid
+	menu.active.bgColor: dark grey
+	menu.active.fgColor: white
+	menu.active.marginWidth: 0
+
+#TOOLBAR APPEARANCE KEYS#
+
+toolbar.appearance: raised gradient vertical border
+toolbar.label.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+
+
