@@ -1,0 +1,98 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+
+rootCommand: bsetroot -solid rgb:38/6c/a0
+#set a neutral background first#
+
+*.appearance: raised gradient vertical border
+*.color1: white
+*.color2: grey95
+*.marginWidth: 2
+*.borderColor: grey20
+*borderWidth: 1
+*.font: Droid Sans-10:style=Bold
+
+window.button.focus.appearance: raised gradient vertical border
+window.button.focus.color1: grey50
+window.button.focus.color2: red
+
+window.button.unfocus.appearance: raised gradient vertical border
+window.button.unfocus.color1: grey50
+window.button.unfocus.color2: grey80
+
+window.label.focus.appearance: raised gradient vertical border
+window.label.focus.color1: grey50
+window.label.focus.color2: blue
+window.label.focus.textColor: white
+
+window.label.unfocus.appearance: parentrelative
+#window.label.unfocus.color1: grey50
+#window.label.unfocus.color2: grey90
+window.label.unfocus.textColor: darkgrey
+#menu.title.color1: grey50
+#menu.title.color2: yellow
+
+menu.frame.appearance: flat interlaced border
+menu.frame.color1: grey95
+menu.frame.color2: white
+
+menu.active.appearance: flat solid
+menu.active.backgroundColor: blue
+
+#toolbar.color1: grey50
+#toolbar.color2: purple4
+
+#toolbar.label.color1: grey50
+#toolbar.label.color2: violet
+
+toolbar.button.color1: grey50
+toolbar.button.color2: blue
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+
+#toolbar.windowLabel.color2: grey50
+#toolbar.windowLabel.color1: white
+
+#toolbar.clock.color1: grey50
+#toolbar.clock.color2: black
+#toolbar.font: Bitstream Vera Sans-12:style=Italic
+#*.foregroundColor: white
+
+#toolbar.clock.textColor: white
+
+#slit.color1: grey50
+#slit.color2: cyan
+
+#*button.pressed.appearance: sunken gradient vertical 
+#*button.pressed.color1: grey30
+#*button.pressed.color2: grey10
+
+menu.title.textColor: black
+*.alignment: center
+#toolbar*textColor: grey10
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: darkgrey
+*button.foregroundColor: white
+window.button.focus.foregroundColor: white
+
+window.grip.focus.appearance: raised gradient vertical border
+window.grip.focus.color1: grey50
+window.grip.focus.color2: blue
+window.handleHeight: 8

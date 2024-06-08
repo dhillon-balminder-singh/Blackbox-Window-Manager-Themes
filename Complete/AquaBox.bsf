@@ -1,0 +1,77 @@
+#Copyright (C) 2020  Dhillon, Balminder S.
+
+#This program is free software; you can redistribute it and/or
+#modify it under the terms of the GNU General Public License
+#as published by the Free Software Foundation; either version 2
+#of the License, or (at your option) any later version.
+
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with this program; if not, write to the Free Software
+#Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+*appearance: raised interlaced border
+*color1: #FBFBFB
+*color2: #EBEBEB
+*alignment: center
+#*marginWidth: 2
+*backgroundColor: #FFFFFF
+*.font: Sans-12:style=Bold
+*textColor: black
+*.title.appearance: raised interlaced border
+menu.title.color1: #FBFBFB
+menu.title.color2: #EBEBEB
+window.title.focus.appearance: raised interlaced border
+window.title.focus.color2: #FBFBFB
+window.title.focus.color1: #EBEBEB
+window.label.focus.appearance: parentrelative
+window.button.focus.appearance: raised gradient PYRAMID
+window.button.focus.color2: #0046E8
+window.button.focus.borderColor: #7F7F7F
+*button.pressed.appearance: sunken solid #border
+*button.pressed.backgroundColor: #3F74C1
+#*button.pressed.foregroundColor: red
+#^BUTTON PRESSED COLOR NOT SURE#
+
+
+window.title.unfocus.appearance: raised interlaced border
+window.title.unfocus.color1: #CFDAE9
+window.title.unfocus.color1: #B8C1CE
+window.label.unfocus.appearance: parentrelative
+window.button.unfocus.appearance: raised gradient PYRAMID
+window.button.unfocus.color1: #CFDAE9
+window.button.unfocus.color2: #B8C1CE
+window.button.unfocus.borderColor: #838485
+window.label.unfocus.textColor: #8B8B8B
+window.frame.unfocus.borderColor: #838485
+window.*.unfocus.borderColor: #7F7F7F
+menu.active.appearance: flat SOLID 
+#menu.active.color2: #0046E8
+#menu.active.color1: #FFFFFF
+#menu.active.backgroundColor: #3F74C1
+menu.active.textColor: white
+menu.active.backgroundColor: #0046E8
+#^ ACTIVE MENU COLOUR TAKEN FROM OSX DEVELOPER PREVIEW #
+window.grip.focus.appearance: raised solid border
+#window.grip.focus.backgroundColor: #ffffff
+window.grip.focus.borderColor: #1A335B
+*borderColor: #838485
+
+toolbar.appearance: raised interlaced border
+toolbar.color1: #FFFFFF
+toolbar.color2: #EAEAEA
+toolbar.*.appearance: parentrelative
+
+#menu.title.marginWidth: 3
+menu.frame.appearance: flat interlaced border
+menu.frame.color1: #DADEE3
+menu.frame.color2: #E9EBED
+
+rootCommand: bsetroot -solid gray
+window.button.unfocus.appearance: raised gradient pyramid
+window.button.unfocus.color1: #CFDAE9
+window.button.unfocus.color2: #B8C1CE
